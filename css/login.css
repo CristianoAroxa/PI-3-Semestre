@@ -1,0 +1,125 @@
+body{
+    background-image:linear-gradient(90deg, #e8a6f0,rgb(255, 255, 255), rgb(162, 142, 242))
+}
+
+
+form{
+    border-radius: 5px;
+    margin-left:950px;
+    margin-top: 100px;
+    width:350px ;
+    height: 380px;
+    background-color: #dbd8e4;
+    border-radius: 20px;
+
+  }
+
+.login{
+   margin-left: 140px;
+   padding-top: 20px;
+   font-size: 30px;
+  }
+
+.email{
+    margin-left: 80px;
+    padding-top: -10px;
+    
+}
+
+.iconEmail{
+    margin-bottom: 10px;
+    margin-left: 42px;
+    width: 25px;
+    height: 25px;
+    padding-top: -40px;
+    padding-bottom: -20px;
+}
+
+
+
+.inputEmail{ 
+    margin-left: 80px;
+    margin-bottom: 25px;
+    width: 200px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    flex: row wrap;
+}
+
+.senha{
+    margin-top: 30px;
+    margin-left: 80px;
+    padding-bottom: 10px;
+
+}
+
+.button{
+    background-color: transparent;
+    border: none;
+}
+
+.iconKey{
+    margin-bottom: -5px;
+    margin-left: 45px;
+    width: 22px;
+    height: 22px;
+    padding-bottom: -20px;
+}
+
+.inputSenha{ 
+    margin-left: 80px;
+    margin-top: -35px;
+    width: 200px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    flex: row wrap;
+}
+
+.senhaerro{
+    margin-top: 15px;
+    margin-left: 120px; 
+    display: flex;
+    flex: row wrap;
+}
+
+.iniciarSessao{
+    background-color: rgb(186, 70, 240);
+    color:#000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border:none;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer; 
+}
+
+.iniciarSessao:hover{
+    color: red;
+}
+
+.criarConta{
+    background-color: rgb(70, 98, 240);
+    color:#000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 43px;
+    padding-right: 43px;
+    margin-left: 80px;
+    margin-top: -40px;
+    border-radius: 5px;
+    border:none;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer; 
+}
+
+.criarConta:hover{
+    color: red;
+}
