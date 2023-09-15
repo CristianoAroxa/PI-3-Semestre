@@ -3,15 +3,15 @@ Repositório do projeto integrador 3 semestre. Equipe TECHSQUAD
 
 ## Terceira versão do Projeto Integrador
 
-# Integrantes
+## Integrantes
 
-## Cristiano Aroxa
-## Leonardo Castro
-## Rafael Kabata
-## Vinicius Candeira
+### Cristiano Aroxa
+### Leonardo Castro
+### Rafael Kabata
+### Vinicius Candeira
 
 
-# Título do Projeto 
+## Título do Projeto 
 Plataforma de Cursos Online para mulheres em situação de vulnerabilidade.
 
 ### Tecnologias utilizadas:
@@ -28,13 +28,13 @@ NodeJs
 
 MySQL
 
-###Clone o repositório
+### Clone o repositório
 
 git clone: https://github.com/CristianoAroxa/PI-3-Semestre.git
 
-Dificuldades durante a execução do projeto:
+## Dificuldades durante a execução do projeto:
 
 
 
-Considerações finais:
+## Considerações finais:
 
