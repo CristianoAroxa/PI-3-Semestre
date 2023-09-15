@@ -19,7 +19,7 @@ MySQL
 
 ###Clone o repositório
 
-git clone: http://gl.com/q/DESAFIO-3.g
+git clone: https://github.com/CristianoAroxa/PI-3-Semestre.git
 
 Dificuldades durante a execução do projeto:
 
