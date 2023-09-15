@@ -13,23 +13,37 @@ body{
 .liberty{
     font-size: 60px;
     margin-left: 200px;
-    margin-top:-80px ;
+    margin-top:-90px ;
 }
 
 .educacao{
-    margin-left: 200px;
+    margin-left: 202px;
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .imagemMenina{
-    margin-top: -30px;
+    margin-top: -40px;
+    margin-left: 200px;
+    width:420px;
+    height:360px;
+}
+
+
+.frase{
+    margin-left: -500px;
+    margin-top: -38px;
+    font-weight: bold;
+    text-align: center;
+    
 }
 
 form{
     border-radius: 5px;
-    margin-left:950px;
-    margin-top: 100px;
+    margin-left:870px;
+    margin-top: -440px;
     width:350px ;
     height: 380px;
     background-color: transparent;
@@ -39,13 +53,15 @@ form{
 
 .login{
    margin-left: 20px;
-   padding-top: 20px;
+   margin-top: 10px;
    font-size: 30px;
+   font-weight: bold;
   }
 
 .email{
     margin-left: 20px;
     padding-bottom: -20px;
+    font-weight: bold;
     display: flex;
     flex: row wrap;
     
@@ -68,12 +84,13 @@ form{
     margin-top: 20px;
     margin-left: 20px;
     padding-bottom: 20px;
-
+    font-weight: bold;
 }
 
 .button{
     background-color: transparent;
     border: none;
+    width: 400px;
 }
 
 
@@ -93,20 +110,26 @@ form{
     margin-left: 120px; 
     display: flex;
     flex: row wrap;
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+    padding-bottom: 5px;
 }
 
 .iniciarSessao{
-    background-color: rgb(186, 70, 240);
-    color:#000000;
+    background-color:#952B95;
+    color:#ffffff;
+    width: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 50px;
     padding-right: 50px;
     margin-left: 80px;
-    margin-top: 40px;
+    margin-top: 10px;
     border-radius: 5px;
-    border:none;
     font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: none;
     cursor: pointer; 
 }
 
@@ -114,16 +137,20 @@ form{
     color: red;
 }
 
+
+
 .criarConta{
     background-color: rgb(70, 98, 240);
-    color:#000000;
+    color:#ffffff;
+    width: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 43px;
     padding-right: 43px;
     margin-left: 80px;
-    margin-top: -40px;
+    margin-top: 10px;
     border-radius: 5px;
+    font-size: 15px;
     border:none;
     font-family:Arial, Helvetica, sans-serif;
     cursor: pointer; 
