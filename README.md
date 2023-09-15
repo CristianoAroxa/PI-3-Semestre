@@ -24,6 +24,8 @@ CSS3
 
 JavaScript ES7
 
+Python
+
 NodeJs
 
 MySQL
@@ -34,6 +36,7 @@ git clone: https://github.com/CristianoAroxa/PI-3-Semestre.git
 
 ## Dificuldades durante a execução do projeto:
 
+Rotação da imagem em para exemplificar a transição linear.
 
 
 ## Considerações finais:
