@@ -13,6 +13,8 @@ CSS3
 
 JavaScript ES7
 
+NodeJs
+
 MySQL
 
 ###Clone o repositório
