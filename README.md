@@ -5,16 +5,18 @@ Repositório do projeto integrador 3 semestre. Equipe TECHSQUAD
 
 ## Integrantes
 
-### Cristiano Aroxa
-### Leonardo Castro
-### Rafael Kabata
-### Vinicius Candeira
+### Cristiano Aroxa - Scrum Master
+### Leonardo Castro - Desenvolvedor
+### Rafael Kabata - Product Owner
+### Vinicius Candeira - Desenvolvedor
 
 
 ## Título do Projeto 
 Plataforma de Cursos Online para mulheres em situação de vulnerabilidade.
 
 ### Tecnologias utilizadas:
+
+Scrum
 
 FIGMA
 
