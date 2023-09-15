@@ -1,9 +1,20 @@
 # PI-3-Semestre
 Repositório do projeto integrador 3 semestre. Equipe TECHSQUAD
 
-##Terceira versão do Projeto Integrador
+## Terceira versão do Projeto Integrador
 
-###Tecnologias utilizadas:
+# Integrantes
+
+## Cristiano Aroxa
+## Leonardo Castro
+## Rafael Kabata
+## Vinicius Candeira
+
+
+# Título do Projeto 
+Plataforma de Cursos Online para mulheres em situação de vulnerabilidade.
+
+### Tecnologias utilizadas:
 
 FIGMA
 
