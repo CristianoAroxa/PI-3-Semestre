@@ -38,7 +38,7 @@ git clone: https://github.com/CristianoAroxa/PI-3-Semestre.git
 
 ## Dificuldades durante a execução do projeto:
 
-Rotação da imagem em para exemplificar a transição linear.
+Rotação da imagem em para exemplificar a transformação linear.
 
 
 ## Considerações finais:
