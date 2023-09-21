@@ -28,9 +28,9 @@ JavaScript ES7
 
 Python
 
-NodeJs
+Node.Js
 
-MySQL
+MongoDb
 
 ### Clone o repositório
 
