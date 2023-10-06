@@ -10,29 +10,23 @@ body{
     flex: row wrap;
 }
 
-.liberty{
+h1{
     font-size: 60px;
     margin-left: 200px;
     margin-top:-90px ;
 }
 
-.educacao{
+.p1{
     margin-left: 202px;
     font-size: 20px;
     margin-top: -30px;
     margin-bottom: 20px;
     font-weight: bold;
+
+    
 }
 
-.imagemMenina{
-    margin-top: -40px;
-    margin-left: 200px;
-    width:420px;
-    height:360px;
-}
-
-
-.frase{
+.p2{
     margin-left: -500px;
     margin-top: -38px;
     font-weight: bold;
@@ -40,9 +34,18 @@ body{
     
 }
 
+.img{
+    margin-top: -40px;
+    margin-left: 250px;
+    width:360px;
+    height:360px;
+}
+
+
+
 form{
     border-radius: 5px;
-    margin-left:870px;
+    margin-left:800px;
     margin-top: -440px;
     width:350px ;
     height: 380px;
@@ -51,14 +54,15 @@ form{
     border: 2px solid #ffffff;
   }
 
-.login{
-   margin-left: 20px;
-   margin-top: 10px;
-   font-size: 30px;
-   font-weight: bold;
-  }
+form h1{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
 
-.email{
+
+label{
     margin-left: 20px;
     padding-bottom: -20px;
     font-weight: bold;
@@ -68,9 +72,8 @@ form{
 }
 
 
-.inputEmail{ 
+.input-email{ 
     margin-left: 20px;
-    margin-top: -15px;
     width: 300px;
     height: 25px;
     background-color: transparent;
@@ -80,23 +83,15 @@ form{
 }
 
 
-.senha{
-    margin-top: 20px;
-    margin-left: 20px;
-    padding-bottom: 20px;
-    font-weight: bold;
-}
 
-.button{
-    background-color: transparent;
-    border: none;
-    width: 400px;
+.link{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 
-.inputSenha{ 
+.input-password{ 
     margin-left: 20px;
-    margin-top: -35px;
     width: 300px;
     height: 25px;
     background-color: transparent;
@@ -105,7 +100,7 @@ form{
     flex: row wrap;
 }
 
-.senhaerro{
+form  p{
     margin-top: 15px;
     margin-left: 120px; 
     display: flex;
@@ -113,10 +108,11 @@ form{
     font-size: 15px;
     font-weight: bold;
     color: blue;
-    padding-bottom: 5px;
+    padding-bottom: 5px; 
 }
 
-.iniciarSessao{
+
+.entrar{
     background-color:#952B95;
     color:#ffffff;
     width: 200px;
@@ -133,13 +129,13 @@ form{
     cursor: pointer; 
 }
 
-.iniciarSessao:hover{
+.entrar:hover{
     color: red;
 }
 
 
 
-.criarConta{
+.cadastrar{
     background-color: rgb(70, 98, 240);
     color:#ffffff;
     width: 200px;
@@ -156,6 +152,7 @@ form{
     cursor: pointer; 
 }
 
-.criarConta:hover{
+.cadastrar:hover{
     color: red;
 }
+
