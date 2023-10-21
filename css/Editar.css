@@ -1,0 +1,259 @@
+body{
+    background-image:linear-gradient(90deg, #e8a6f0,rgb(255, 255, 255), rgb(162, 142, 242));
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+    margin-top: 10px;
+    display: flex;
+    flex: row wrap;
+}
+
+.navbar-toggler{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.menu-icon{
+    width: 40px;
+    height: 40px;
+}
+
+
+.input-navbar{
+    width: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+
+.icon-navbar{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.nav-item{
+    padding: 3px;
+}
+
+.nav-item:hover{
+    background-color: #952B95;
+}
+
+.navbar-nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.navbar-nav a:hover{
+    color: #fff;
+}
+
+
+.navbar-nav {
+   background-color: #fff;
+   border-bottom: 1px solid black;
+   margin-left: 1131px;
+   border-left: none;
+   border-bottom: none;
+   width: 200px;
+   height: 220px;
+   position:absolute;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+}
+
+.icon-user{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex: row wrap;
+    margin-left: 100px;
+    margin-top: -70px;
+}
+
+.edit-image{
+    border-radius: 10px;
+    background-color :rgba(0, 0, 0, 0.4);
+    width:600px ;
+    height: 650px;
+    margin-left:400px;
+
+}
+
+.edit-image h1{
+    font-size: 30px;
+    margin-left: 200px;
+    color: black;
+}
+
+.link{
+    font-size: 50px;
+    margin-left: 520px;
+    margin-top: -200px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    color: red;
+}
+
+
+label{
+    margin-left: 100px;
+    color: black;
+}
+
+
+.input-name{
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left:70px;
+    margin-top: 80px;
+    border: 1px solid;
+}
+
+.input-lastname{
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 1px solid;
+    
+}
+
+
+.input-email{
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 75px;
+    margin-top: 30px;
+    border: 1px solid;
+}
+
+.edit-image p{
+    margin-left: 420px;
+}
+
+.rotate{
+    width:40px;
+    height: 40px;
+    margin-left: 420px;
+    margin-top: -250px;
+    cursor: pointer;
+}
+
+.edit-image p{
+    cursor: pointer;
+    margin-top: -110px;
+}
+
+.edit-image p:hover{
+    text-decoration: underline;
+}
+
+hr{
+    color: black;
+}
+
+
+.edit-image h2{
+   color: black;
+   text-decoration: none;
+}
+
+
+.icons img{
+    cursor: pointer;
+}
+
+.edit{
+    margin-left: 50px;
+}
+
+.edit:hover{
+    color: red;
+}
+
+.upload{
+    margin-left: 80px;
+}
+
+
+.delete{
+    margin-left: 250px;
+}
+
+.h1-editar {
+    margin-left: 50px;
+    flex: row wrap;
+    display: inline;
+    cursor: pointer;
+}
+
+.div-h1 h1{
+    margin-left: 33px;
+    font-size: 25px;
+    flex: row wrap;
+    display: inline;
+    padding: 4px;
+}
+
+.div-h1 h1:hover{
+    text-decoration: underline;
+}
+
+.h1-upload{
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.div-h1-2{
+    margin-top: -32px;
+    margin-left: 270px;
+}
+
+.h1-excluir{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.h1-excluir:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

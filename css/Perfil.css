@@ -1,0 +1,335 @@
+body{
+    background-image:linear-gradient(90deg, #e8a6f0,rgb(255, 255, 255), rgb(162, 142, 242));
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+    margin-top: 10px;
+    display: flex;
+    flex: row wrap;
+}
+
+.navbar-toggler{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.menu-icon{
+    width: 40px;
+    height: 40px;
+}
+
+
+.input-navbar{
+    width: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+
+.icon-navbar{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.nav-item{
+    padding: 3px;
+}
+
+.nav-item:hover{
+    background-color: #952B95;
+}
+
+.navbar-nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.navbar-nav a:hover{
+    color: #fff;
+}
+
+
+.navbar-nav {
+   background-color: #fff;
+   border-bottom: 1px solid black;
+   margin-left: 1131px;
+   border-left: none;
+   border-bottom: none;
+   width: 200px;
+   height: 220px;
+   position:absolute;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+}
+
+.icon-user{
+    width: 400px;
+    height: 200px;
+    margin-left: 460px;
+}
+
+.pencil{
+    width: 100px;
+    height: 30px;
+    margin-top: -420px;
+    margin-left: 1270px;
+    cursor: pointer;
+}
+
+
+.picture h1{
+    font-size: 30px;
+    margin-left: 40px;
+    color: black;
+}
+
+.picture p{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.icons hr{
+    border: 1px solid black;
+}
+
+.icons img{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 180px;
+}
+
+.certificados h1{
+    margin-left: 40px;
+    color: black;
+}
+
+.certificados img{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 220px;
+    cursor: pointer;
+}
+
+.comentarios{
+    border-radius: 10px;
+    background-color :rgba(255, 255, 255, 0.3);
+    width:1010px ;
+    height: 250px;
+    margin-left: 150px;
+}
+
+.comentarios img{
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    flex: row wrap;
+}
+
+.comentarios h1{
+    margin-top: 200px;
+    margin-left: 50px;
+    color: black;
+}
+
+.comentarios h2{
+    margin-left: 120px;
+    margin-top: -60px;
+    font-size: 20px;
+}
+
+.comentarios h2:hover{
+    text-decoration: underline;
+}
+
+.comentarios h3{
+    margin-left: 120px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+
+.comentarios p{
+    margin-left: 120px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+.div-footer1{
+    padding-top: 20px;
+    display: flex;
+    flex: row wrap;
+}
+
+.div-footer2{
+    display: flex;
+    flex: row wrap;
+}
+
+.div-footer3{
+    display: flex;
+    flex: row wrap;
+}
+
+.footerh1{
+    color: #952B95;
+    font-size: 15px;
+    margin-left: 180px;
+}
+
+.footerp{
+    color: dodgerblue;
+    margin-top: 25px;
+    margin-left: -102px;
+    cursor: pointer;
+}
+
+.footerp:hover{
+    text-decoration: underline;
+}
+
+.logo-footer{
+  width: 120px;
+  height:120px;
+  margin-top: 50px;
+  margin-left: -108px;
+}
+
+.footer2h1{
+    color: #952B95;
+    font-size:15px ;
+    margin-left: 550px;
+    margin-top: -170px;
+}
+
+
+.footer2p{
+    color: dodgerblue;
+    margin-top: -150px;
+    margin-left: -117px;
+    cursor: pointer;
+}
+
+.footer2p:hover{
+    text-decoration: underline;
+}
+
+
+
+.footer2p2{
+    color: dodgerblue;
+    margin-top: -120px;
+    margin-left: -57px;
+    cursor: pointer;
+}
+
+.footer2p2:hover{
+    text-decoration: underline;
+}
+
+.footer2p3{
+    color: dodgerblue;
+    margin-top: -90px;
+    margin-left: -124px;
+    cursor: pointer;
+}
+
+.footer2p3:hover{
+    text-decoration: underline;
+}
+
+.footer2p4{
+    color: dodgerblue;
+    margin-top: -60px;
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+.footer2p4:hover{
+    text-decoration: underline;
+}
+
+.footer2p5{
+    color: dodgerblue;
+    margin-top: -30px;
+    margin-left: -158px;
+    cursor: pointer;
+}
+
+.footer2p5:hover{
+    text-decoration: underline;
+}
+
+.footer3h1{
+    color: #952B95;
+    font-size:15px ;
+    font-weight: bold;
+    margin-left: 910px;
+    margin-top: -180px;
+    display: flex;
+    flex: row wrap;
+}
+
+.icon-message{
+    width: 50px;
+    height: 50px;
+    margin-left: 910px;
+    cursor: pointer;
+}
+
+.icon-whatsapp{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+    
+}
+
+.footer3h2{
+    color: #952B95;
+    font-size: 15px;
+    margin-top: -70px;
+    margin-left: -112px;
+    font-weight: bold;
+    display: flex;
+    flex: row wrap;
+}
+
+.icon-instagram{
+    width: 50px;
+    height: 50px;
+    margin-left: -55px;
+    cursor: pointer;
+}
+
+.icon-youtube{
+    width: 50px;
+    height: 50px;
+    margin-left: -120px;
+    cursor: pointer;
+}
+
+.footer3p{
+    color: #952B95;
+    font-size: 15px;
+    margin-left: 100px;
+    font-weight: bold;
+}
