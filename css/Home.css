@@ -1,17 +1,55 @@
 body{
-    background-image:linear-gradient(90deg, #e8a6f0,rgb(255, 255, 255), rgb(162, 142, 242));
+    background-image:linear-gradient(45deg, #cbb9fc,rgb(255, 255, 255), rgb(237, 190, 245));
     font-family: 'Roboto', sans-serif;
 }
 
 
+.container-fluid{
+    margin-bottom:-20px ;
+}
 
+
+.navbar-brand p{
+    font-size: 15px;
+    margin-left: 45px;
+    margin-top: -10px;
+}
 
 
 .navbar-logo{
     width: 80px;
     height: 80px;
     margin-left: 60px;
-    margin-top: 10px;
+    display: flex;
+    flex: row wrap;
+    
+}
+
+.input-navbar{
+    width: 250px;
+    border-radius: 10px;
+    margin-left: -50px;
+    margin-top: -30px;
+    background-color: transparent;
+    display: flex;
+    flex: row wrap;
+}
+
+.input-button{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: -30px;
+    margin-left: -170px;
+    display: flex;
+    flex: row wrap;
+}
+
+.magnifying-glass{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    margin-top: 3px;
     display: flex;
     flex: row wrap;
 }
@@ -19,13 +57,17 @@ body{
 .navbar-toggler{
     width: 70px;
     height: 70px;
-    margin-top: 10px;
+    margin-top: -15px;
 }
 
+
 .menu-icon{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
+    margin-left: -7px;
 }
+
+
 
 
 .input-navbar{
@@ -34,22 +76,42 @@ body{
     background-color: transparent;
 }
 
-.navbar p{
+.navbar-href{
     color:#7878FF;
     font-size: 20px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: -10px;
+    margin-left: -50px;
 }
 
-.navbar p:hover{
+.navbar-href-cad{
+    color:#7878FF;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: -50px;
+}
+
+.navbar-href:hover{
     text-decoration: underline;
 }
+
+.navbar-href-cad:hover{
+    text-decoration: underline;
+}
+
 
 .icon-navbar{
     width: 40px;
     height: 40px;
     cursor: pointer;
+    margin-top: -20px;
 }
+
+.icon-navbar:hover{
+   color: red;
+}
+
 
 .nav-item{
     padding: 3px;
@@ -74,7 +136,8 @@ body{
 .navbar-nav {
    background-color: #fff;
    border-bottom: 1px solid black;
-   margin-left: 1140px;
+   margin-top: -30px;
+   margin-left: 1051px;
    border-left: none;
    border-bottom: none;
    width: 200px;
@@ -341,33 +404,25 @@ body{
     background-color:#7878FF;
  }
 
- .recomendados{
-    border-top: 1px solid black;
- }
 
  .recomendados h1{
     color: #952B95;
-    margin-left: 480px;
+    margin-left: 440px;
     font-size: 35px;
  }
 
-.recomendados-hardskills img{
-    width: 250px;
-    height: 250px;
-    margin-left: 150px;
-}
 
 .recomendados-hardskills img{
     width: 250px;
     height: 250px;
-    margin-left: 150px;
+    margin-left: 130px;
     cursor: pointer;
 }
 
 .recomendados-hardskills h1{
     color:#7878FF;
     margin-top: -40px;
-    margin-left: 170px;
+    margin-left: 140px;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
@@ -379,8 +434,8 @@ body{
 
 .recomendados-hardskills h2{
     color:#7878FF;
-    margin-top: -80px;
-    margin-left: 570px;
+    margin-top: -105px;
+    margin-left: 525px;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
@@ -391,8 +446,8 @@ body{
 
 .recomendados-hardskills h3{
     color:#7878FF;
-    margin-top: -80px;
-    margin-left: 980px;
+    margin-top: -105px;
+    margin-left: 920px;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
@@ -419,7 +474,7 @@ body{
     height: 180px;
     margin-bottom: -60px;
     margin-top: 70px;
-    margin-left: 150px;
+    margin-left: 130px;
     display: flex;
     flex: row wrap;
 }
@@ -428,7 +483,7 @@ body{
     width: 250px;
     height: 200px;
     margin-top: -190px;
-    margin-left: 555px;
+    margin-left: 515px;
     display: flex;
     flex: row wrap;
 }
@@ -437,15 +492,71 @@ body{
     width: 250px;
     height: 230px;
     margin-top: -215px;
-    margin-left: 950px;
+    margin-left: 905px;
     display: flex;
     flex: row wrap;
 }
 
+
+.rectangle{
+    margin-left: 170px;
+    display: flex;
+    flex: row wrap;
+}
+
+.rectangle-number{
+    margin-left: 185px;
+    margin-top: -65px;
+}
+
+.stars{
+    margin-top: -65px;
+}
+
+.rectangle-two{
+    margin-left: 570px;
+    margin-top: -65px;
+    display: flex;
+    flex: row wrap;
+}
+
+.rectangle-number-two{
+    margin-left: 585px;
+    margin-top: -65px;
+}
+
+.stars-two{
+    margin-top: -65px;
+}
+
+
+.rectangle-three{
+    margin-left: 970px;
+    margin-top: -65px;
+    display: flex;
+    flex: row wrap;
+}
+
+.rectangle-number-three{
+    margin-left: 985px;
+    margin-top: -65px;
+}
+
+.stars-three{
+    margin-top: -65px;
+}
+
+
+
+
+
+
+
 .recomendados-softskills h1{
     color:#7878FF;
     margin-top: -40px;
-    margin-left: 190px;
+    margin-left: 170px;
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
@@ -456,8 +567,8 @@ body{
 
 .recomendados-softskills h2{
     color:#7878FF;
-    margin-top: -30px;
-    margin-left: 580px;
+    margin-top: -55px;
+    margin-left: 538px;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
@@ -468,13 +579,14 @@ body{
 
 .recomendados-softskills h3{
     color:#7878FF;
-    margin-top: -55px;
-    margin-left: 955px;
+    margin-top: -75px;
+    margin-left: 915px;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     display: flex;
     flex: row wrap;
+    text-align: center;
 }
 
 
@@ -489,6 +601,70 @@ body{
 .recomendados-softskills h3:hover {
     text-decoration: underline;
 }
+
+.rectangle{
+    margin-left: 135px;
+    display: flex;
+    flex: row wrap;
+}
+
+.rectangle-number{
+    margin-left: 150px;
+    margin-top: -65px;
+}
+
+.stars{
+    margin-top: -65px;
+}
+
+.rectangle-two{
+    margin-left: 525px;
+    margin-top: -65px;
+    display: flex;
+    flex: row wrap;
+}
+
+.rectangle-number-two{
+    margin-left: 538px;
+    margin-top: -65px;
+}
+
+.stars-two{
+    margin-top: -65px;
+}
+
+
+.rectangle-three{
+    margin-left: 905px;
+    margin-top: -65px;
+    display: flex;
+    flex: row wrap;
+}
+
+.rectangle-number-three{
+    margin-left: 915px;
+    margin-top: -65px;
+}
+
+.stars-three{
+    margin-top: -65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #liderança h1{
@@ -521,15 +697,16 @@ body{
 
 
  .d-block{
-    width: 80%;
-    height: 500px;
-    margin-left: 132.5px;
+    width: 100%;
+    height: 521px;
+    margin-left: -0px;
  }
 
  .arrows a {
     background-color: rgb(0, 0, 0);
-    width: 164px;
-    height: 500px;
+    width: 100px;
+    height: 415.5px;
+
  }
 
  .container-fluid {
@@ -537,7 +714,7 @@ body{
   }
   
   #mainSlider .carousel-inner, #mainSlider .carousel-item{
-      height: 90vh;
+      height: 70vh;
   }
   
   #mainSlider .carousel-caption{
@@ -560,7 +737,7 @@ body{
      background-color: #65DAF9;
      color: #fff;
      text-transform: uppercase;
-     width: 200px;
+     width: 100px;
      height: 60px;
      padding: 10px 20px;
      border-radius: 30px;
@@ -575,14 +752,14 @@ body{
 
 .ofertas-h1{
     color: #952B95;
-    margin-left: 600px;
+    margin-left: 550px;
     margin-top: 100px;
     font-size: 25px;
     font-weight: bold;
 }
 
 .div-react{
-    margin-left: 240px;
+    margin-left: 190px;
     border: 3px solid #7878FF;
     padding-left: 60px;
     padding-right: 50px;
@@ -599,7 +776,77 @@ body{
 .div-react img{
     width: 200px;
     height: 200px;
+    display: flex;
+    flex: row wrap;
 }
+
+
+
+.react-img .rectangle-react{
+    width: 160px;
+    height: 160px;
+    margin-top: -80px;
+    margin-left: 220px;
+    display: flex;
+    flex: row wrap;
+ }
+
+
+.react-img .number-react{
+    width: 20px;
+    height: 20px;
+    margin-left:225px;
+    margin-top: -90px;
+    display: flex;
+    flex: row wrap;
+ }
+
+.react-img .stars-react{
+   width: 20px;
+   height: 20px;
+   margin-left:250px;
+   margin-top: -20px;
+   display: flex;
+   flex: row wrap;
+}
+
+.react-img .stars-react-two{
+    width: 20px;
+    height: 20px;
+    margin-left:275px;
+    margin-top: -20px;
+    display: flex;
+    flex: row wrap;
+ }
+
+ .react-img .stars-react-three{
+    width: 20px;
+    height: 20px;
+    margin-left:300px;
+    margin-top: -20px;
+    display: flex;
+    flex: row wrap;
+ }
+
+ .react-img .stars-react-four{
+    width: 20px;
+    height: 20px;
+    margin-left:325px;
+    margin-top: -20px;
+    display: flex;
+    flex: row wrap;
+ }
+
+ .react-img .stars-react-five{
+    width: 20px;
+    height: 20px;
+    margin-left:350px;
+    margin-top: -20px;
+    display: flex;
+    flex: row wrap;
+ }
+
+
 
 .div-react h1{
     color: #7878FF;
@@ -615,6 +862,73 @@ body{
     margin-top: -10px;
     font-size: 15px;
 }
+
+.softskills-img img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex: row wrap;
+}
+
+
+
+.softskills-img .rectangle-react{
+    width: 160px;
+    height: 160px;
+    margin-top: -80px;
+    margin-left: 220px;
+    display: flex;
+    flex: row wrap;
+ }
+
+
+.softskills-img .number-react{
+    width: 20px;
+    height: 20px;
+    margin-left:225px;
+    margin-top: -90px;
+    display: flex;
+    flex: row wrap;
+ }
+
+.softskills-img .stars-react{
+   width: 20px;
+   height: 20px;
+   margin-left:250px;
+   margin-top: -20px;
+   display: flex;
+   flex: row wrap;
+}
+
+.softskills-img .stars-react-two{
+    width: 20px;
+    height: 20px;
+    margin-left:275px;
+    margin-top: -20px;
+    display: flex;
+    flex: row wrap;
+ }
+
+ .softskills-img .stars-react-three{
+    width: 20px;
+    height: 20px;
+    margin-left:300px;
+    margin-top: -20px;
+    display: flex;
+    flex: row wrap;
+ }
+
+ .softskills-img .stars-react-four{
+    width: 20px;
+    height: 20px;
+    margin-left:325px;
+    margin-top: -20px;
+    display: flex;
+    flex: row wrap;
+ }
+
+
+
 
 .div-react h2{
     color: #7878FF;
@@ -651,7 +965,7 @@ body{
 }
 
 .div-softskills{
-    margin-left: 240px;
+    margin-left: 190px;
     border: 3px solid #7878FF;
     padding-left: 60px;
     padding-right: 50px;
@@ -730,9 +1044,11 @@ footer{
 .div-footer2{
     display: flex;
     flex: row wrap;
+    margin-left: 10px;
 }
 
 .div-footer3{
+    margin-left: 45px;
     display: flex;
     flex: row wrap;
 }
@@ -764,7 +1080,7 @@ footer{
 .footer2h1{
     color: #952B95;
     font-size:15px ;
-    margin-left: 550px;
+    margin-left: 500px;
     margin-top: -170px;
 }
 
@@ -830,7 +1146,7 @@ footer{
     color: #952B95;
     font-size:15px ;
     font-weight: bold;
-    margin-left: 910px;
+    margin-left: 810px;
     margin-top: -180px;
     display: flex;
     flex: row wrap;
@@ -839,15 +1155,20 @@ footer{
 .icon-message{
     width: 50px;
     height: 50px;
-    margin-left: 910px;
+    margin-left: 810px;
     cursor: pointer;
+    display: flex;
+    flex: row wrap;
 }
 
 .icon-whatsapp{
     width: 50px;
     height: 50px;
-    margin-left: 15px;
+    margin-left: 875px;
+    margin-top: -50px;
     cursor: pointer;
+    display: flex;
+    flex: row wrap;
     
 }
 
@@ -855,7 +1176,7 @@ footer{
     color: #952B95;
     font-size: 15px;
     margin-top: -70px;
-    margin-left: -112px;
+    margin-left: -105px;
     font-weight: bold;
     display: flex;
     flex: row wrap;
@@ -864,20 +1185,30 @@ footer{
 .icon-instagram{
     width: 50px;
     height: 50px;
-    margin-left: -55px;
+    margin-left:-115px;
     cursor: pointer;
+    display: flex;
+    flex: row wrap;
+    
 }
 
 .icon-youtube{
     width: 50px;
     height: 50px;
-    margin-left: -120px;
+    margin-left: -50px;
+    margin-top: -50px;
     cursor: pointer;
+    display: flex;
+    flex: row wrap;
+    
 }
 
 .footer3p{
     color: #952B95;
     font-size: 15px;
-    margin-left: 120px;
+    margin-left: 80px;
     font-weight: bold;
+    display: flex;
+    flex: row wrap;
+    
 }

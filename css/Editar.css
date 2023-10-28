@@ -1,13 +1,21 @@
 body{
-    background-image:linear-gradient(90deg, #e8a6f0,rgb(255, 255, 255), rgb(162, 142, 242));
+    background-image:linear-gradient(45deg, #cbb9fc,rgb(255, 255, 255), rgb(237, 190, 245));
+    height: 185vh;
     font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    border-bottom: 1px solid black;
+}
+
+.container-fluid{
+    margin-bottom:-20px ;
 }
 
 .navbar-logo{
     width: 80px;
     height: 80px;
     margin-left: 60px;
-    margin-top: 10px;
     display: flex;
     flex: row wrap;
 }
@@ -15,12 +23,49 @@ body{
 .navbar-toggler{
     width: 70px;
     height: 70px;
-    margin-top: 10px;
+    margin-top: -15px;
+}
+
+.navbar-brand p{
+    font-size: 15px;
+    margin-left: 45px;
+    margin-top: -10px;
+    color: black;
 }
 
 .menu-icon{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
+    margin-left: -7px;
+}
+
+.input-navbar{
+    width: 250px;
+    border-radius: 10px;
+    margin-left: -100px;
+    margin-top: -30px;
+    background-color: transparent;
+    display: flex;
+    flex: row wrap;
+}
+
+.input-button{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: -30px;
+    margin-left: -302px;
+    display: flex;
+    flex: row wrap;
+}
+
+.magnifying-glass{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    margin-top: 3px;
+    display: flex;
+    flex: row wrap;
 }
 
 
@@ -35,6 +80,7 @@ body{
     width: 40px;
     height: 40px;
     cursor: pointer;
+    margin-top: -20px;
 }
 
 .nav-item{
@@ -60,7 +106,8 @@ body{
 .navbar-nav {
    background-color: #fff;
    border-bottom: 1px solid black;
-   margin-left: 1131px;
+   margin-top: -30px;
+   margin-left: 1051px;
    border-left: none;
    border-bottom: none;
    width: 200px;
@@ -79,19 +126,28 @@ body{
     margin-top: -70px;
 }
 
+
+
+
+
+
+
+
+
+
 .edit-image{
     border-radius: 10px;
     background-color :rgba(0, 0, 0, 0.4);
     width:600px ;
-    height: 650px;
-    margin-left:400px;
+    height: 670px;
+    margin-left:310px;
 
 }
 
 .edit-image h1{
     font-size: 30px;
     margin-left: 200px;
-    color: black;
+    color: #952B95;
 }
 
 .link{
@@ -110,7 +166,7 @@ body{
 
 label{
     margin-left: 100px;
-    color: black;
+    color: #952B95;
 }
 
 
@@ -142,6 +198,7 @@ label{
 
 .edit-image p{
     margin-left: 420px;
+    color:#952B95;
 }
 
 .rotate{
@@ -149,7 +206,8 @@ label{
     height: 40px;
     margin-left: 420px;
     margin-top: -250px;
-    cursor: pointer;
+    cursor: pointer; 
+    color:#952B95;
 }
 
 .edit-image p{
@@ -161,10 +219,6 @@ label{
     text-decoration: underline;
 }
 
-hr{
-    color: black;
-}
-
 
 .edit-image h2{
    color: black;
@@ -172,12 +226,10 @@ hr{
 }
 
 
-.icons img{
-    cursor: pointer;
-}
 
 .edit{
     margin-left: 50px;
+    
 }
 
 .edit:hover{
@@ -186,26 +238,36 @@ hr{
 
 .upload{
     margin-left: 80px;
+    
 }
 
+.edit-bar{
+    border-top: 1px solid black;
+    padding-top: 20px;
+    margin-top: 40px;
+}
 
 .delete{
     margin-left: 250px;
+    
 }
 
+
 .h1-editar {
-    margin-left: 50px;
+    margin-left: -30px;
     flex: row wrap;
     display: inline;
     cursor: pointer;
 }
 
 .div-h1 h1{
-    margin-left: 33px;
-    font-size: 25px;
+    margin-left: 40px;
+    font-size: 22px;
     flex: row wrap;
     display: inline;
     padding: 4px;
+    font-weight: 400;
+    color: dodgerblue;
 }
 
 .div-h1 h1:hover{
@@ -217,28 +279,25 @@ hr{
     cursor: pointer;
 }
 
+.div-h1-2 h1{
+    font-size:25px;
+    font-weight: 400;
+    margin-left: 207px;
+    color: dodgerblue;
+}
+
 .div-h1-2{
     margin-top: -32px;
     margin-left: 270px;
 }
 
 .h1-excluir{
-    font-size: 25px;
     cursor: pointer;
 }
 
 .h1-excluir:hover{
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
 
 
 
