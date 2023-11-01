@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(45deg, #cbb9fc,rgb(255, 255, 255), rgb(237, 190, 245));
+    background-image:linear-gradient(135deg, rgb(237, 190, 245) ,rgb(255, 255, 255),#cbb9fc);
     height: 185vh;
     font-family: 'Roboto', sans-serif;
 }

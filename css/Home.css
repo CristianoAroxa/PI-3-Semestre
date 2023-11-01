@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(45deg, #cbb9fc,rgb(255, 255, 255), rgb(237, 190, 245));
+    background-image:linear-gradient(135deg, rgb(237, 190, 245) ,rgb(255, 255, 255),#cbb9fc);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -100,6 +100,10 @@ body{
     text-decoration: underline;
 }
 
+.link{
+    text-decoration: none;
+}
+
 
 .icon-navbar{
     width: 40px;
@@ -155,10 +159,6 @@ body{
     font-size: 25px;
 }
 
-.hr-hardSkills{
-    margin-left: 115px;
-    width: 1000px;
-}
 
 .button-hardSkills1{
     background-color: transparent;
@@ -285,7 +285,7 @@ body{
 
 .hr-softSkills{
     margin-left: 115px;
-    margin-top: 20px;
+    margin-top: 55px;
     width: 1000px;
 }
 
