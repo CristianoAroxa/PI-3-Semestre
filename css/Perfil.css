@@ -31,6 +31,7 @@ nav{
     margin-left: -100px;
     margin-top: -30px;
     background-color: transparent;
+    border: 1px solid;
     display: flex;
     flex: row wrap;
 }
@@ -39,6 +40,7 @@ nav{
     width: 50px;
     height: 30px;
     border-radius: 10px;
+    border: 1px solid;
     margin-top: -30px;
     margin-left: -302px;
     display: flex;
@@ -121,9 +123,10 @@ nav{
 .pencil{
     width: 100px;
     height: 30px;
-    margin-top: -420px;
-    margin-left: 1260px;
+    position: absolute;
+    right: 0;
     cursor: pointer;
+    z-index: 1000;
 }
 
 .pencil:hover{
@@ -146,6 +149,11 @@ nav{
     border: 1px solid black;
 }
 
+.icons img:hover{
+    transform: scale(1.2);
+    transition: ease 1s;
+}
+
 .icons img{
     width: 50px;
     cursor: pointer;
@@ -164,6 +172,11 @@ nav{
     cursor: pointer;
 }
 
+.certificados img:hover{
+    transform: scale(1.3);
+    transition: ease 1s;
+}
+
 .comentarios{
     border-radius: 10px;
     background-color :rgba(255, 255, 255, 0.3);
@@ -180,7 +193,7 @@ nav{
     margin-left: 50px;
     display: flex;
     flex: row wrap;
-    
+    cursor: pointer;
 }
 
 .comentarios h1{
@@ -191,12 +204,13 @@ nav{
 
 .comentarios h2{
     margin-left: 120px;
-    margin-top: -60px;
+    margin-top: -80px;
     font-size: 20px;
 }
 
 .comentarios h2:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .comentarios h3{

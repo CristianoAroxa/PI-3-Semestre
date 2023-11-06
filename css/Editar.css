@@ -45,6 +45,7 @@ nav{
     margin-left: -100px;
     margin-top: -30px;
     background-color: transparent;
+    border: 1px solid;
     display: flex;
     flex: row wrap;
 }
@@ -53,6 +54,7 @@ nav{
     width: 50px;
     height: 30px;
     border-radius: 10px;
+    border: 1px solid;
     margin-top: -30px;
     margin-left: -302px;
     display: flex;
@@ -119,11 +121,12 @@ nav{
 
 .icon-user{
     width: 400px;
-    height: 200px;
+    height: 190px;
     display: flex;
     flex: row wrap;
-    margin-left: 100px;
-    margin-top: -70px;
+    margin-left: 110px;
+    margin-top: -60px;
+    
 }
 
 
@@ -137,7 +140,7 @@ nav{
 
 .edit-image{
     border-radius: 10px;
-    background-color :rgba(0, 0, 0, 0.4);
+    background-color :rgba(185, 185, 185, 0.4);
     width:600px ;
     height: 670px;
     margin-left:310px;
@@ -146,7 +149,7 @@ nav{
 
 .edit-image h1{
     font-size: 30px;
-    margin-left: 200px;
+    margin-left: 220px;
     color: #952B95;
 }
 
@@ -237,7 +240,7 @@ label{
 }
 
 .upload{
-    margin-left: 80px;
+    margin-left: 70px;
     
 }
 
@@ -248,7 +251,7 @@ label{
 }
 
 .delete{
-    margin-left: 250px;
+    margin-left: 260px;
     
 }
 
@@ -275,7 +278,6 @@ label{
 }
 
 .h1-upload{
-    margin-left: 50px;
     cursor: pointer;
 }
 
