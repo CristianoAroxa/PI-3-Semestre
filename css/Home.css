@@ -31,6 +31,7 @@ body{
     margin-left: -50px;
     margin-top: -30px;
     background-color: transparent;
+    border: 1px solid;
     display: flex;
     flex: row wrap;
 }
@@ -39,6 +40,7 @@ body{
     width: 50px;
     height: 30px;
     border-radius: 10px;
+    border: 1px solid;
     margin-top: -30px;
     margin-left: -170px;
     display: flex;
@@ -113,7 +115,8 @@ body{
 }
 
 .icon-navbar:hover{
-   color: red;
+    transform: scale(1.2);
+    transition: ease 1s;
 }
 
 
@@ -153,12 +156,6 @@ body{
 
 
 
-.hardSkills{
-    color: #952B95;
-    margin-left: 510px;
-    font-size: 25px;
-}
-
 
 .button-hardSkills1{
     background-color: transparent;
@@ -171,7 +168,7 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
     margin-left: 150px;
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex: row wrap;
     cursor: pointer;
@@ -289,6 +286,82 @@ body{
     width: 1000px;
 }
 
+.hardSkills{
+    color: #952B95;
+    margin-left: 510px;
+    font-size: 25px;
+}
+
+.icons-hardSkills img{
+    margin-top: 50px;
+}
+
+.icons-hardSkillone{
+    margin-left: 170px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons-hardSkilltwo{
+    margin-left: 110px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons-hardSkillthree{
+    margin-left: 90px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons-hardSkillfour{
+    margin-left: 90px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons-hardSkillfive{
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons-softSkills img{
+    margin-top: 50px;
+}
+
+.icons-softSkillone{
+    margin-left: 160px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons-softSkilltwo{
+    margin-left: 120px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons-softSkillthree{
+    margin-left: 90px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons-softSkillfour{
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons-softSkillfive{
+    margin-left: 90px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
 .button-softSkills1{
     background-color: transparent;
     color:#7878FF;
@@ -300,7 +373,7 @@ body{
     padding-top: 8px;
     padding-bottom: 8px;
     margin-left: 150px;
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     flex: row wrap;
     cursor: pointer;
@@ -454,6 +527,10 @@ body{
     display: flex;
     flex: row wrap;
     text-align: center;
+}
+
+.recomendados-hardskills a{
+    text-decoration: none;
 }
 
 .recomendados-hardskills h1:hover {
@@ -705,13 +782,44 @@ body{
  .arrows a {
     background-color: rgb(0, 0, 0);
     width: 100px;
-    height: 415.5px;
+    height: 422px;
 
  }
 
  .container-fluid {
     padding: 0;
   }
+
+  
+
+  .carousel-item{
+    background-color: rgb(255, 255, 255)
+  }
+
+  
+
+  
+  .carousel-item h2{
+    font-size: 15px;
+    margin-left: -509px;
+    margin-top: -158px;
+    color: #fff;
+  }
+
+  .carousel-item h3{
+    font-size: 30px;
+    margin-left: 615px;
+    margin-top: 30px;
+    color: #000000;
+  }
+
+  .carousel-item h5{
+    font-size: 15px;
+    margin-left: 620px;
+    color: #000000;
+  }
+
+ 
   
   #mainSlider .carousel-inner, #mainSlider .carousel-item{
       height: 70vh;
@@ -720,6 +828,13 @@ body{
   #mainSlider .carousel-caption{
       top: 30%;
   }
+
+  #mainSlider .carousel-caption h1{
+    color: #000000;
+    font-size: 50px;
+    margin-top: -110px;
+    margin-left: 430px;
+}
   
   #mainSlider .carousel-caption h2{
       font-size: 50px;
@@ -782,21 +897,12 @@ body{
 
 
 
-.react-img .rectangle-react{
-    width: 160px;
-    height: 160px;
-    margin-top: -80px;
-    margin-left: 220px;
-    display: flex;
-    flex: row wrap;
- }
-
 
 .react-img .number-react{
     width: 20px;
     height: 20px;
-    margin-left:225px;
-    margin-top: -90px;
+    margin-left:218px;
+    margin-top: -100px;
     display: flex;
     flex: row wrap;
  }
@@ -804,7 +910,7 @@ body{
 .react-img .stars-react{
    width: 20px;
    height: 20px;
-   margin-left:250px;
+   margin-left:242px;
    margin-top: -20px;
    display: flex;
    flex: row wrap;
@@ -813,7 +919,7 @@ body{
 .react-img .stars-react-two{
     width: 20px;
     height: 20px;
-    margin-left:275px;
+    margin-left:266px;
     margin-top: -20px;
     display: flex;
     flex: row wrap;
@@ -822,7 +928,7 @@ body{
  .react-img .stars-react-three{
     width: 20px;
     height: 20px;
-    margin-left:300px;
+    margin-left:290px;
     margin-top: -20px;
     display: flex;
     flex: row wrap;
@@ -831,7 +937,7 @@ body{
  .react-img .stars-react-four{
     width: 20px;
     height: 20px;
-    margin-left:325px;
+    margin-left:314px;
     margin-top: -20px;
     display: flex;
     flex: row wrap;
@@ -840,7 +946,7 @@ body{
  .react-img .stars-react-five{
     width: 20px;
     height: 20px;
-    margin-left:350px;
+    margin-left:337px;
     margin-top: -20px;
     display: flex;
     flex: row wrap;
@@ -872,21 +978,11 @@ body{
 
 
 
-.softskills-img .rectangle-react{
-    width: 160px;
-    height: 160px;
-    margin-top: -80px;
-    margin-left: 220px;
-    display: flex;
-    flex: row wrap;
- }
-
-
 .softskills-img .number-react{
     width: 20px;
     height: 20px;
-    margin-left:225px;
-    margin-top: -90px;
+    margin-left:215px;
+    margin-top: -100px;
     display: flex;
     flex: row wrap;
  }
@@ -894,7 +990,7 @@ body{
 .softskills-img .stars-react{
    width: 20px;
    height: 20px;
-   margin-left:250px;
+   margin-left:240px;
    margin-top: -20px;
    display: flex;
    flex: row wrap;
@@ -903,7 +999,7 @@ body{
 .softskills-img .stars-react-two{
     width: 20px;
     height: 20px;
-    margin-left:275px;
+    margin-left:265px;
     margin-top: -20px;
     display: flex;
     flex: row wrap;
@@ -912,7 +1008,7 @@ body{
  .softskills-img .stars-react-three{
     width: 20px;
     height: 20px;
-    margin-left:300px;
+    margin-left:290px;
     margin-top: -20px;
     display: flex;
     flex: row wrap;
@@ -921,7 +1017,7 @@ body{
  .softskills-img .stars-react-four{
     width: 20px;
     height: 20px;
-    margin-left:325px;
+    margin-left:315px;
     margin-top: -20px;
     display: flex;
     flex: row wrap;

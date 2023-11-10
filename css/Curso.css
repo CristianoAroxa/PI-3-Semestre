@@ -1,0 +1,437 @@
+body{
+    background-image:linear-gradient(135deg, rgb(237, 190, 245) ,rgb(255, 255, 255),#cbb9fc);
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    border-bottom: 1px solid black;
+}
+
+.container-fluid{
+    margin-bottom:-20px ;
+}
+
+.navbar-logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+    display: flex;
+    flex: row wrap;
+}
+
+.navbar-brand p{
+    font-size: 15px;
+    margin-left: 45px;
+    margin-top: -10px;
+}
+
+.input-navbar{
+    width: 250px;
+    border-radius: 10px;
+    margin-left: -100px;
+    margin-top: -30px;
+    background-color: transparent;
+    border: 1px solid;
+    display: flex;
+    flex: row wrap;
+}
+
+.input-button{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: -30px;
+    margin-left: -302px;
+    display: flex;
+    flex: row wrap;
+}
+
+.magnifying-glass{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    margin-top: 3px;
+    display: flex;
+    flex: row wrap;
+}
+
+
+.navbar-toggler{
+    width: 70px;
+    height: 70px;
+    margin-top: -15px;
+}
+
+.menu-icon{
+    width: 60px;
+    height: 60px;
+    margin-left: -7px;
+}
+
+
+.icon-navbar{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+.icon-navbar:hover{
+    transform: scale(1.2);
+    transition: ease 1s;
+}
+
+.nav-item{
+    padding: 3px;
+}
+
+.nav-item:hover{
+    background-color: #952B95;
+}
+
+.navbar-nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.navbar-nav a:hover{
+    color: #fff;
+}
+
+
+.navbar-nav {
+   background-color: #fff;
+   border-bottom: 1px solid black;
+   margin-left: 1051px;
+   margin-top: -30px;
+   border-left: none;
+   border-bottom: none;
+   width: 200px;
+   height: 220px;
+   position:absolute;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+}
+
+.descrição{
+    background-color:  #ffffff;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    
+}
+
+.descrição h1{
+    font-size: 30px;
+    margin-left: 50px;
+    color: dodgerblue;
+}
+
+.descrição p{
+    margin-left: 50px;
+    margin-top: 10px;
+    color: dodgerblue;
+    
+}
+
+.imagem img{
+    width: 250px;
+    height: 250px;
+    margin-left: 1000px;
+    margin-top: -170px;
+    display: flex;
+    flex: row wrap;
+    
+}
+
+.imagem button{
+    display: flex;
+    margin-left: 1000px;
+    width: 250px;
+}
+
+.button-start{
+    background-color: #952B95;
+    color:#ffffff;
+    border-radius: 10px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    margin-top: -50px;
+    border: none;
+    cursor: pointer;
+}
+
+.imagem a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.button-start a:hover{
+    color: red;
+}
+
+.button-buy{
+    background-color: dodgerblue;
+    color:#ffffff;
+    width: 200px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-buy a:hover{
+    color: red;
+}
+
+.feedback{
+    margin-left: 50px;
+    
+}
+
+.feedback p{
+    margin-top: -140px;
+    margin-left: 150px;
+    color: dodgerblue;
+}
+
+.feedback h1{
+    margin-left: -5px;
+}
+
+.number{
+    width: 20px;
+    margin-top: -240px;
+    
+}
+
+.stars{
+    width: 20px;
+    margin-top: -240px;
+    
+}
+
+.clock{
+    width: 35px;
+    height:35px;
+    margin-top:-90px;
+    margin-left:400px;
+    position:absolute;
+    color: blue;
+}
+
+.feedback h2{
+    margin-top:-85px;
+    margin-left:460px;
+    font-size: 22px;
+    position:absolute;
+    color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    border-top: 1px solid rgb(0, 0, 0);;
+}
+
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+.div-footer1{
+    padding-top: 20px;
+    display: flex;
+    flex: row wrap;
+}
+
+.div-footer2{
+    display: flex;
+    flex: row wrap;
+    margin-left: 10px;
+}
+
+.div-footer3{
+    margin-left: 45px;
+    display: flex;
+    flex: row wrap;
+}
+
+.footerh1{
+    color: #952B95;
+    font-size: 15px;
+    margin-left: 180px;
+}
+
+.footerp{
+    color: dodgerblue;
+    margin-top: 25px;
+    margin-left: -102px;
+    cursor: pointer;
+}
+
+.footerp:hover{
+    text-decoration: underline;
+}
+
+.logo-footer{
+  width: 120px;
+  height:120px;
+  margin-top: 50px;
+  margin-left: -108px;
+}
+
+.footer2h1{
+    color: #952B95;
+    font-size:15px ;
+    margin-left: 500px;
+    margin-top: -170px;
+}
+
+
+.footer2p{
+    color: dodgerblue;
+    margin-top: -150px;
+    margin-left: -117px;
+    cursor: pointer;
+}
+
+.footer2p:hover{
+    text-decoration: underline;
+}
+
+
+
+.footer2p2{
+    color: dodgerblue;
+    margin-top: -120px;
+    margin-left: -57px;
+    cursor: pointer;
+}
+
+.footer2p2:hover{
+    text-decoration: underline;
+}
+
+.footer2p3{
+    color: dodgerblue;
+    margin-top: -90px;
+    margin-left: -124px;
+    cursor: pointer;
+}
+
+.footer2p3:hover{
+    text-decoration: underline;
+}
+
+.footer2p4{
+    color: dodgerblue;
+    margin-top: -60px;
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+.footer2p4:hover{
+    text-decoration: underline;
+}
+
+.footer2p5{
+    color: dodgerblue;
+    margin-top: -30px;
+    margin-left: -158px;
+    cursor: pointer;
+}
+
+.footer2p5:hover{
+    text-decoration: underline;
+}
+
+.footer3h1{
+    color: #952B95;
+    font-size:15px ;
+    font-weight: bold;
+    margin-left: 810px;
+    margin-top: -180px;
+    display: flex;
+    flex: row wrap;
+}
+
+.icon-message{
+    width: 50px;
+    height: 50px;
+    margin-left: 810px;
+    cursor: pointer;
+    display: flex;
+    flex: row wrap;
+}
+
+.icon-whatsapp{
+    width: 50px;
+    height: 50px;
+    margin-left: 875px;
+    margin-top: -50px;
+    cursor: pointer;
+    display: flex;
+    flex: row wrap;
+    
+}
+
+.footer3h2{
+    color: #952B95;
+    font-size: 15px;
+    margin-top: -70px;
+    margin-left: -105px;
+    font-weight: bold;
+    display: flex;
+    flex: row wrap;
+}
+
+.icon-instagram{
+    width: 50px;
+    height: 50px;
+    margin-left:-115px;
+    cursor: pointer;
+    display: flex;
+    flex: row wrap;
+    
+}
+
+.icon-youtube{
+    width: 50px;
+    height: 50px;
+    margin-left: -50px;
+    margin-top: -50px;
+    cursor: pointer;
+    display: flex;
+    flex: row wrap;
+    
+}
+
+.footer3p{
+    color: #952B95;
+    font-size: 15px;
+    margin-left: 80px;
+    font-weight: bold;
+    display: flex;
+    flex: row wrap;
+    
+}
