@@ -128,17 +128,12 @@ nav{
 .pencil{
     width: 100px;
     height: 30px;
-<<<<<<< HEAD
-    margin-left: -130px;
-    margin-top: -150px;
+    margin-right: 420px;
     cursor: pointer;
-    
-=======
     position: absolute;
     right: 0;
     cursor: pointer;
     z-index: 1000;
->>>>>>> 7d68f7977e2f8820512f8b659b78d4d46263f6d7
 }
 
 .pencil:hover{

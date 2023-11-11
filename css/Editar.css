@@ -144,12 +144,8 @@ nav{
 
 
 .edit-image{
+    border: 1px solid black;
     border-radius: 10px;
-<<<<<<< HEAD
-    background-color :rgba(231, 229, 229, 0.4);
-=======
-    background-color :rgba(185, 185, 185, 0.4);
->>>>>>> 7d68f7977e2f8820512f8b659b78d4d46263f6d7
     width:600px ;
     height: 670px;
     margin-left:310px;
