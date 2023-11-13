@@ -1,0 +1,325 @@
+body{
+    background-image:linear-gradient(135deg, rgb(237, 190, 245) ,rgb(255, 255, 255),#cbb9fc);
+    height: 185vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    border-bottom: 1px solid black;
+}
+
+.container-fluid{
+    margin-bottom:-20px ;
+}
+
+.navbar-logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+    display: flex;
+    flex: row wrap;
+}
+
+.navbar-toggler{
+    width: 70px;
+    height: 70px;
+    margin-top: -15px;
+}
+
+.navbar-brand p{
+    font-size: 15px;
+    margin-left: 45px;
+    margin-top: -10px;
+    color: black;
+}
+
+.menu-icon{
+    width: 60px;
+    height: 60px;
+    margin-left: -7px;
+}
+
+.input-navbar{
+    width: 250px;
+    border-radius: 10px;
+    margin-left: -100px;
+    margin-top: -30px;
+    background-color: transparent;
+    border: 1px solid;
+    display: flex;
+    flex: row wrap;
+}
+
+.input-button{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: -30px;
+    margin-left: -302px;
+    display: flex;
+    flex: row wrap;
+}
+
+.magnifying-glass{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    margin-top: 3px;
+    display: flex;
+    flex: row wrap;
+}
+
+
+.input-navbar{
+    width: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+
+.icon-navbar{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+.icon-navbar:hover{
+    transform: scale(1.2);
+    transition: ease 1s;
+}
+
+.nav-item{
+    padding: 3px;
+}
+
+.nav-item:hover{
+    background-color: #952B95;
+}
+
+.navbar-nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.navbar-nav a:hover{
+    color: #fff;
+}
+
+
+.navbar-nav {
+   background-color: #fff;
+   border-bottom: 1px solid black;
+   margin-top: -30px;
+   margin-left: 1051px;
+   border-left: none;
+   border-bottom: none;
+   width: 200px;
+   height: 220px;
+   position:absolute;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+}
+
+.icon-user{
+    width: 400px;
+    height: 190px;
+    display: flex;
+    flex: row wrap;
+    margin-left: 110px;
+    margin-top: -60px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.edit-image{
+    border: 1px solid black;
+    border-radius: 10px;
+    width:600px ;
+    height: 670px;
+    margin-left:310px;
+
+}
+
+.edit-image h1{
+    font-size: 30px;
+    margin-left: 220px;
+    color: #952B95;
+}
+
+.link{
+    font-size: 50px;
+    margin-left: 520px;
+    margin-top: -200px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    color: red;
+}
+
+
+label{
+    margin-left: 100px;
+    color: #952B95;
+}
+
+
+.input-name{
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left:70px;
+    margin-top: 80px;
+    border: 1px solid;
+}
+
+.input-lastname{
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 1px solid;
+    
+}
+
+
+.input-email{
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 75px;
+    margin-top: 30px;
+    border: 1px solid;
+}
+
+.edit-image p{
+    margin-left: 420px;
+    color:#952B95;
+}
+
+.rotate{
+    width:40px;
+    height: 40px;
+    margin-left: 420px;
+    margin-top: -250px;
+    cursor: pointer; 
+    color:#952B95;
+}
+
+.edit-image p{
+    cursor: pointer;
+    margin-top: -110px;
+}
+
+.edit-image p:hover{
+    text-decoration: underline;
+}
+
+
+.edit-image h2{
+   color: black;
+   text-decoration: none;
+}
+
+
+
+.edit{
+    margin-left: 50px;
+    
+}
+
+.edit:hover{
+    color: red;
+}
+
+.upload{
+    margin-left: 70px;
+    
+}
+
+.edit-bar{
+    border-top: 1px solid black;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.delete{
+    margin-left: 260px;
+    
+}
+
+
+.h1-editar {
+    margin-left: -30px;
+    flex: row wrap;
+    display: inline;
+    cursor: pointer;
+}
+
+.div-h1 h1{
+    margin-left: 40px;
+    font-size: 22px;
+    flex: row wrap;
+    display: inline;
+    padding: 4px;
+    font-weight: 400;
+    color: dodgerblue;
+}
+
+.div-h1 h1:hover{
+    text-decoration: underline;
+}
+
+.h1-upload{
+    cursor: pointer;
+}
+
+.div-h1-2 h1{
+    font-size:25px;
+    font-weight: 400;
+    margin-left: 207px;
+    color: dodgerblue;
+}
+
+.div-h1-2{
+    margin-top: -32px;
+    margin-left: 270px;
+}
+
+.h1-excluir{
+    cursor: pointer;
+}
+
+.h1-excluir:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
