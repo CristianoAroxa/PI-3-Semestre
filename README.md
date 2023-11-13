@@ -11,7 +11,7 @@
 
 # Plataforma de cursos para mulheres em situação de vulnerabilidade .
 
-## tecnologias utilizadas
+## Tecnologias utilizadas
 
 ES6
 
