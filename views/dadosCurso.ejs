@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,19 +9,19 @@
     <div class="container">
         <div class="card">
             <div class="card-header">
-                <h1>Alterar cliente</h1>
+                <h1>Alterar curso</h1>
                 <hr>
-                <form method="POST" action="/updateClient/<%= Client._id %>">
-                    <label>Nome do cliente:</label>
-                    <input type="text" name="name" id="name" value="<%= Client.name %>" class="form-control">
+                <form method="POST" action="/updateCurso/<%= curso._id %>">
+                    <label>Nome do curso:</label>
+                    <input type="text" name="name" id="name" value="<%= curso.nome %>" class="form-control">
                                     
-                    <label>CPF do cliente:</label>
-                    <input type="text" name="cpf" id="cpf" value="<%= Client.cpf %>" class="form-control cpf">
+                    <label>Carga horária do curso:</label>
+                    <input type="text" name="carga" id="carga" value="<%= curso.carga %>" class="form-control cpf">
                     
-                    <label>Endereço do cliente:</label>
-                    <input type="text" name="address" id="address" value="<%= Client.address %>" class="form-control">
+                    <label>Endereço do curso:</label>
+                    <input type="text" name="preco" id="preco" value="<%= curso.preco %>" class="form-control">
                     <br>
-                    <input type="hidden" name="id" value="<%= Client._id %>">
+                    <input type="hidden" name="id" value="<%= curso._id %>">
                     <input type="submit" class="btn btn-warning" value="Alterar">
                 </form>
                 <hr>

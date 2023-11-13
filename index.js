@@ -39,11 +39,11 @@ app.get("/", function (req, res) {
     res.render("index")
 })
 
-// Rota Home
-// Rota de login
+
 app.get("/login", function (req, res) {
     const email = req.query.email;
-    res.render("login", { email });
+    const senha = req.query.senha;
+    res.render("login", { email, senha });
 });
 
 app.get("/home", function (req, res) {
@@ -103,7 +103,7 @@ app.post("/create", function (req, res) {
     const confSenha = req.body.confSenha;
 
 
-    // Cria um documento JSON com os dados do formulário
+
     const newClient = new clientModel({
         nome,
         rg,
@@ -119,7 +119,7 @@ app.post("/create", function (req, res) {
     return res.redirect("/")
 
 })
-// ROTA CURSOS
+
 app.get("/editarCurso", (req, res) => {
     cursoService.GetAll().then(cursos => {
         res.render("editarCurso", {
@@ -128,7 +128,7 @@ app.get("/editarCurso", (req, res) => {
     })
 })
 
-// ROTA DE CRIAÇÃO DE CURSO
+
 app.post("/createCurso", (req, res) => {
     cursoService.Create(
         req.body.nome,
@@ -138,25 +138,24 @@ app.post("/createCurso", (req, res) => {
     res.redirect("/editarCurso")
 })
 
-// ROTA DE EXCLUSÃO DE CURSO
+
 app.get("/deleteCurso/:id", (req, res) => {
     const id = req.params.id
     cursoService.Delete(id)
     res.redirect("/curso")
 })
 
-// ROTA DE BUSCA DE CURSO
+
 app.get("/findCurso/:id", (req, res) => {
     const id = req.params.id
     cursoService.GetOne(id).then(Curso => {
-        res.render("dadosCurso ", {
+        res.render("/dadosCurso ", {
             Curso: Curso
         })
     })
 })
 
-// ROTA DE ALTERAÇÃO DE CURSO
-app.post("/updateClient/:id", (req, res) => {
+app.post("/updateCurso/:id", (req, res) => {
     cursoService.Update(
         req.body.id,
         req.body.nome,
