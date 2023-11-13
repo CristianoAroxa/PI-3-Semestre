@@ -89,6 +89,9 @@ app.get("/editar", function (req, res) {
 app.get("/cadastro", function (req, res) {
     res.render("cadastro")
 })
+app.get("/loading", function (req, res) {
+    res.render("loading")
+})
 
 
 
@@ -117,10 +120,10 @@ app.post("/create", function (req, res) {
 
 })
 // ROTA CURSOS
-app.get("/editarCurso", (req,res) => {
+app.get("/editarCurso", (req, res) => {
     cursoService.GetAll().then(cursos => {
         res.render("editarCurso", {
-            cursos: cursos        
+            cursos: cursos
         })
     })
 })
@@ -139,7 +142,7 @@ app.post("/createCurso", (req, res) => {
 app.get("/deleteCurso/:id", (req, res) => {
     const id = req.params.id
     cursoService.Delete(id)
-    res.redirect("/curso")  
+    res.redirect("/curso")
 })
 
 // ROTA DE BUSCA DE CURSO
@@ -147,19 +150,20 @@ app.get("/findCurso/:id", (req, res) => {
     const id = req.params.id
     cursoService.GetOne(id).then(Curso => {
         res.render("dadosCurso ", {
-            Curso : Curso         })
+            Curso: Curso
+        })
     })
 })
 
 // ROTA DE ALTERAÇÃO DE CURSO
 app.post("/updateClient/:id", (req, res) => {
-        cursoService.Update(
-            req.body.id,
-            req.body.nome,
-            req.body.cargaHoraria,
-            req.body.preco
-        )
-        res.redirect("/curso")
+    cursoService.Update(
+        req.body.id,
+        req.body.nome,
+        req.body.cargaHoraria,
+        req.body.preco
+    )
+    res.redirect("/curso")
 })
 
 
