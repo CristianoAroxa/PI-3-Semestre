@@ -149,7 +149,7 @@ app.get("/deleteCurso/:id", (req, res) => {
 app.get("/findCurso/:id", (req, res) => {
     const id = req.params.id
     cursoService.GetOne(id).then(Curso => {
-        res.render("/dadosCurso ", {
+        res.render("/dadosCurso", {
             Curso: Curso
         })
     })
@@ -164,9 +164,6 @@ app.post("/updateCurso/:id", (req, res) => {
     )
     res.redirect("/curso")
 })
-
-
-
 
 // Iniciando o servidor na pora 8080
 app.listen(8080, function (erro) {
