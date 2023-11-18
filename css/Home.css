@@ -17,12 +17,16 @@ body{
 
 
 .navbar-logo{
-    width: 80px;
+    width: 70px;
     height: 80px;
     margin-left: 60px;
     display: flex;
     flex: row wrap;
     
+}
+
+.navbar-liberty{
+    size: 10px;
 }
 
 .input-navbar{
@@ -37,12 +41,12 @@ body{
 }
 
 .input-button{
+    background-color: transparent;
+    border: none;
     width: 50px;
     height: 30px;
-    border-radius: 10px;
-    border: 1px solid;
     margin-top: -30px;
-    margin-left: -170px;
+    margin-left: -190px;
     display: flex;
     flex: row wrap;
 }
@@ -478,73 +482,6 @@ body{
  }
 
 
- .recomendados h1{
-    color: #952B95;
-    margin-left: 440px;
-    font-size: 35px;
- }
-
-
-.recomendados-hardskills img{
-    width: 250px;
-    height: 250px;
-    margin-left: 130px;
-    cursor: pointer;
-}
-
-.recomendados-hardskills h1{
-    color:#7878FF;
-    margin-top: -40px;
-    margin-left: 140px;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    flex: row wrap;
-    text-align: center;
-    
-}
-
-.recomendados-hardskills h2{
-    color:#7878FF;
-    margin-top: -105px;
-    margin-left: 525px;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    flex: row wrap;
-    text-align: center;
-}
-
-.recomendados-hardskills h3{
-    color:#7878FF;
-    margin-top: -105px;
-    margin-left: 920px;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    flex: row wrap;
-    text-align: center;
-}
-
-.recomendados-hardskills a{
-    text-decoration: none;
-}
-
-.recomendados-hardskills h1:hover {
-    text-decoration: underline;
-}
-
-.recomendados-hardskills h2:hover {
-    text-decoration: underline;
-}
-
-.recomendados-hardskills h3:hover {
-    text-decoration: underline;
-}
-
 
 .image6{
     width: 250px;
@@ -575,173 +512,35 @@ body{
 }
 
 
-.rectangle{
-    margin-left: 170px;
-    display: flex;
-    flex: row wrap;
-}
-
-.rectangle-number{
-    margin-left: 185px;
-    margin-top: -65px;
-}
-
 .stars{
     margin-top: -65px;
 }
 
-.rectangle-two{
-    margin-left: 570px;
-    margin-top: -65px;
-    display: flex;
-    flex: row wrap;
-}
-
-.rectangle-number-two{
-    margin-left: 585px;
-    margin-top: -65px;
-}
 
 .stars-two{
     margin-top: -65px;
 }
 
 
-.rectangle-three{
-    margin-left: 970px;
-    margin-top: -65px;
-    display: flex;
-    flex: row wrap;
-}
-
-.rectangle-number-three{
-    margin-left: 985px;
-    margin-top: -65px;
-}
-
 .stars-three{
     margin-top: -65px;
 }
 
 
-
-
-
-
-
-.recomendados-softskills h1{
-    color:#7878FF;
-    margin-top: -40px;
-    margin-left: 170px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    flex: row wrap;
-    
-}
-
-.recomendados-softskills h2{
-    color:#7878FF;
-    margin-top: -55px;
-    margin-left: 538px;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    flex: row wrap;
-    text-align: center;
-}
-
-.recomendados-softskills h3{
-    color:#7878FF;
-    margin-top: -75px;
-    margin-left: 915px;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    flex: row wrap;
-    text-align: center;
-}
-
-
-.recomendados-softskills h1:hover {
-    text-decoration: underline;
-}
-
-.recomendados-softskills h2:hover {
-    text-decoration: underline;
-}
-
-.recomendados-softskills h3:hover {
-    text-decoration: underline;
-}
-
-.rectangle{
-    margin-left: 135px;
-    display: flex;
-    flex: row wrap;
-}
-
-.rectangle-number{
-    margin-left: 150px;
-    margin-top: -65px;
-}
-
 .stars{
     margin-top: -65px;
 }
 
-.rectangle-two{
-    margin-left: 525px;
-    margin-top: -65px;
-    display: flex;
-    flex: row wrap;
-}
-
-.rectangle-number-two{
-    margin-left: 538px;
-    margin-top: -65px;
-}
 
 .stars-two{
     margin-top: -65px;
 }
 
 
-.rectangle-three{
-    margin-left: 905px;
-    margin-top: -65px;
-    display: flex;
-    flex: row wrap;
-}
-
-.rectangle-number-three{
-    margin-left: 915px;
-    margin-top: -65px;
-}
 
 .stars-three{
     margin-top: -65px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #liderança h1{
@@ -862,6 +661,7 @@ body{
 
 .navbar{
     border-bottom: 1px solid rgb(0, 0, 0);
+    /* background-color: #952B95; */
 }
 
 
@@ -1307,4 +1107,53 @@ footer{
     display: flex;
     flex: row wrap;
     
+}
+
+.CursosRecomendados{
+    margin: 30px 10px 30px 10px;
+}
+
+.h1CursosReco{
+    color: #952B95;
+    display: flex;
+    justify-content: center;
+}
+
+.cursosRecoPosi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cursosReco{
+    display: flex;
+}
+
+.cursos{
+    margin: 10px 40px 10px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tamImg{
+    width: 250px;
+}
+
+.h5curso{
+    display: flex;
+    width: 250px;
+    color: #952B95;
+}
+.h1preco{
+    margin: 2px;
+    color: #952B95;
+}
+
+.estrela{
+    width: 30px;
+    margin: 1px 3px 1px 3px;
+}
+
+.posiEstrelas{
+    display: flex;
 }
