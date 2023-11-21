@@ -7,6 +7,8 @@ nav{
     border-bottom: 1px solid black;
 }
 
+
+
 .container-fluid{
     margin-bottom:-20px ;
 }
@@ -37,12 +39,12 @@ nav{
 }
 
 .input-button{
+    background-color: transparent;
+    border: none;
     width: 50px;
     height: 30px;
-    border-radius: 10px;
-    border: 1px solid;
     margin-top: -30px;
-    margin-left: -302px;
+    margin-left: -320px;
     display: flex;
     flex: row wrap;
 }
@@ -128,16 +130,21 @@ nav{
 .pencil{
     width: 100px;
     height: 30px;
-    margin-right: 420px;
+    margin-top: -30px;
     cursor: pointer;
     position: absolute;
     right: 0;
     cursor: pointer;
     z-index: 1000;
 }
+.pencil img:hover{
+    transform: scale(1.2);
+    transition: ease 1s;
+}
 
 .pencil:hover{
-    color: red;
+    transform: scale(1.2);
+    transition: ease 0.5s;
 }
 
 .picture h1{

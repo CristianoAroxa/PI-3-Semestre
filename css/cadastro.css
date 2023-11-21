@@ -64,6 +64,7 @@ form{
     background-color: transparent;
     border: none;
     width: 400px;
+    
 }
 
 
@@ -83,15 +84,21 @@ form{
     border:none;
     font-family:Arial, Helvetica, sans-serif;
     cursor: pointer; 
+    
 }
 
 .link{
     text-decoration: none;
     color: white;
+    
 }
 
 .link:hover{
-    color: red;
+    color: rgb(70, 98, 240);
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    transition: ease 1s;
+    
 }
 
 .input{

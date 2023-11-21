@@ -140,13 +140,16 @@ form  p:hover{
 }
 
 .entrar a:hover{
-    color: red;
+    color: rgb(70, 98, 240);
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    transition: ease 1s;
 }
 
 
 
 .cadastrar{
-    background-color: rgb(70, 98, 240);
+    background-color: #952B95;
     color:#ffffff;
     width: 200px;
     padding-top: 10px;
@@ -163,6 +166,9 @@ form  p:hover{
 }
 
 .cadastrar a:hover{
-    color: red;
+    color: rgb(70, 98, 240);
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    transition: ease 1s;
 }
 
