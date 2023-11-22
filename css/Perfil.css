@@ -122,17 +122,18 @@ nav{
 }
 
 .icon-user{
-    width: 400px;
-    height: 200px;
-    margin-left: 460px;
+    width: 220px;
+    margin-left: 500px;
+    border-radius: 10px;
+    
 }
 
 .pencil{
     width: 100px;
     height: 30px;
-    margin-top: -30px;
+    margin-top: -240px;
+    margin-left: 420px;
     cursor: pointer;
-    position: absolute;
     right: 0;
     cursor: pointer;
     z-index: 1000;
