@@ -1,31 +1,31 @@
-body{
-    background-image:linear-gradient(rgb(237, 190, 245) ,rgb(255, 255, 255),#cbb9fc);
+body {
+    background-image: linear-gradient(rgb(237, 190, 245), rgb(255, 255, 255), #cbb9fc);
     font-family: 'Roboto', sans-serif;
 }
 
 
-.container-fluid{
-    margin-bottom:-20px ;
+.container-fluid {
+    margin-bottom: -20px;
 }
 
 
-.navbar-brand p{
+.navbar-brand p {
     font-size: 15px;
     margin-left: 45px;
     margin-top: -10px;
 }
 
 
-.navbar-logo{
+.navbar-logo {
     width: 80px;
     height: 80px;
     margin-left: 60px;
     display: flex;
     flex: row wrap;
-    
+
 }
 
-.input-navbar{
+.input-navbar {
     width: 250px;
     border-radius: 10px;
     margin-left: -50px;
@@ -36,7 +36,7 @@ body{
     flex: row wrap;
 }
 
-.input-button{
+.input-button {
     width: 50px;
     height: 30px;
     border-radius: 10px;
@@ -47,7 +47,7 @@ body{
     flex: row wrap;
 }
 
-.magnifying-glass{
+.magnifying-glass {
     width: 20px;
     height: 20px;
     margin-left: 8px;
@@ -56,14 +56,14 @@ body{
     flex: row wrap;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     width: 70px;
     height: 70px;
     margin-top: -15px;
 }
 
 
-.menu-icon{
+.menu-icon {
     width: 60px;
     height: 60px;
     margin-left: -7px;
@@ -72,94 +72,94 @@ body{
 
 
 
-.input-navbar{
+.input-navbar {
     width: 250px;
     border-radius: 10px;
     background-color: transparent;
 }
 
-.navbar-href{
-    color:#7878FF;
+.navbar-href {
+    color: #7878FF;
     font-size: 20px;
     cursor: pointer;
     margin-top: -10px;
     margin-left: -50px;
 }
 
-.navbar-href-cad{
-    color:#7878FF;
+.navbar-href-cad {
+    color: #7878FF;
     font-size: 20px;
     cursor: pointer;
     margin-top: -10px;
     margin-left: -50px;
 }
 
-.navbar-href:hover{
+.navbar-href:hover {
     text-decoration: underline;
 }
 
-.navbar-href-cad:hover{
+.navbar-href-cad:hover {
     text-decoration: underline;
 }
 
-.link{
+.link {
     text-decoration: none;
 }
 
 
-.icon-navbar{
+.icon-navbar {
     width: 40px;
     height: 40px;
     cursor: pointer;
     margin-top: -20px;
 }
 
-.icon-navbar:hover{
+.icon-navbar:hover {
     transform: scale(1.2);
     transition: ease 1s;
 }
 
 
-.nav-item{
+.nav-item {
     padding: 3px;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     background-color: #952B95;
 }
 
-.navbar-nav a{
+.navbar-nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 20px;
     padding-bottom: 30px;
 }
 
-.navbar-nav a:hover{
+.navbar-nav a:hover {
     color: #fff;
 }
 
 
 .navbar-nav {
-   background-color: #fff;
-   border-bottom: 1px solid black;
-   margin-top: -30px;
-   margin-left: 1051px;
-   border-left: none;
-   border-bottom: none;
-   width: 200px;
-   height: 220px;
-   position:absolute;
-   border-top-left-radius: 15px;
-   border-bottom-left-radius: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid black;
+    margin-top: -30px;
+    margin-left: 1051px;
+    border-left: none;
+    border-bottom: none;
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 
 
 
-.button-hardSkills1{
+.button-hardSkills1 {
     background-color: transparent;
-    color:#7878FF;
+    color: #7878FF;
     border: 1px solid #7878FF;
     font-size: 25px;
     font-weight: bold;
@@ -174,16 +174,15 @@ body{
     cursor: pointer;
 }
 
-.button-hardSkills1:hover
- {
+.button-hardSkills1:hover {
     color: #fff;
-    background-color:#7878FF;
- }
+    background-color: #7878FF;
+}
 
 
-.button-hardSkills2{
+.button-hardSkills2 {
     background-color: transparent;
-    color:#7878FF;
+    color: #7878FF;
     border: 1px solid #7878FF;
     font-size: 25px;
     font-weight: bold;
@@ -197,15 +196,15 @@ body{
     flex: row wrap;
     cursor: pointer;
 }
-.button-hardSkills2:hover
-{
+
+.button-hardSkills2:hover {
     color: #fff;
-    background-color:#7878FF;
+    background-color: #7878FF;
 }
 
-.button-hardSkills3{
+.button-hardSkills3 {
     background-color: transparent;
-    color:#7878FF;
+    color: #7878FF;
     border: 1px solid #7878FF;
     font-size: 25px;
     font-weight: bold;
@@ -220,20 +219,19 @@ body{
     cursor: pointer;
 }
 
-.button-hardSkills3:hover
- {
+.button-hardSkills3:hover {
     color: #fff;
-    background-color:#7878FF;
- }
+    background-color: #7878FF;
+}
 
-.button-hardSkills4{
+.button-hardSkills4 {
     background-color: transparent;
-    color:#7878FF;
+    color: #7878FF;
     border: 1px solid #7878FF;
     font-size: 15px;
     font-weight: bold;
     padding-left: 30px;
-    padding-right: 30px;  
+    padding-right: 30px;
     padding-top: 2px;
     padding-bottom: 2px;
     display: flex;
@@ -243,118 +241,116 @@ body{
     cursor: pointer;
 }
 
-.button-hardSkills4:hover
- {
+.button-hardSkills4:hover {
     color: #fff;
-    background-color:#7878FF;
- }
+    background-color: #7878FF;
+}
 
-.button-hardSkills5{
+.button-hardSkills5 {
     background-color: transparent;
-    color:#7878FF;
+    color: #7878FF;
     border: 1px solid #7878FF;
     font-size: 25px;
     font-weight: bold;
     padding-left: 15px;
-    padding-right: 15px;  
+    padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: -50px;
     margin-left: 970px;
     display: flex;
     flex: row wrap;
-    cursor: pointer;  
+    cursor: pointer;
 }
 
-.button-hardSkills5:hover
- {
+.button-hardSkills5:hover {
     color: #fff;
-    background-color:#7878FF;
- }
+    background-color: #7878FF;
+}
 
 
 
-.softSkills{
+.softSkills {
     color: #952B95;
     margin-left: 510px;
     font-size: 25px;
 }
 
-.hr-softSkills{
+.hr-softSkills {
     margin-left: 115px;
     margin-top: 55px;
     width: 1000px;
 }
 
-.hardSkills{
+.hardSkills {
     color: #952B95;
     margin-left: 510px;
     font-size: 25px;
 }
 
-.icons-hardSkills img{
+.icons-hardSkills img {
     margin-top: 50px;
 }
 
-.icons-hardSkillone{
+.icons-hardSkillone {
     margin-left: 170px;
     width: 100px;
     height: 100px;
 }
 
-.icons-hardSkilltwo{
+.icons-hardSkilltwo {
     margin-left: 110px;
     width: 100px;
     height: 100px;
 }
 
-.icons-hardSkillthree{
+.icons-hardSkillthree {
     margin-left: 90px;
     width: 100px;
     height: 100px;
 }
 
-.icons-hardSkillfour{
+.icons-hardSkillfour {
     margin-left: 90px;
     width: 100px;
     height: 100px;
 }
 
-.icons-hardSkillfive{
+.icons-hardSkillfive {
     margin-left: 100px;
     width: 100px;
     height: 100px;
 }
 
-.icons-softSkills img{
+.icons-softSkills img {
     margin-top: 50px;
 }
 
-.icons-softSkillone{
+.icons-softSkillone {
     margin-left: 160px;
     width: 100px;
     height: 100px;
 }
 
-.icons-softSkilltwo{
+.icons-softSkilltwo {
     margin-left: 120px;
     width: 100px;
     height: 100px;
 }
 
-.icons-softSkillthree{
+.icons-softSkillthree {
     margin-left: 90px;
     width: 100px;
     height: 100px;
 }
 
-.icons-softSkillfour{
+.icons-softSkillfour {
     margin-left: 100px;
     width: 100px;
     height: 100px;
 }
 
-.icons-softSkillfive{
+.icons-softSkillfive {
     margin-left: 90px;
     width: 100px;
     height: 100px;
@@ -362,9 +358,9 @@ body{
 
 
 
-.button-softSkills1{
+.button-softSkills1 {
     background-color: transparent;
-    color:#7878FF;
+    color: #7878FF;
     border: 1px solid #7878FF;
     font-size: 20px;
     font-weight: bold;
@@ -379,15 +375,14 @@ body{
     cursor: pointer;
 }
 
-.button-softSkills1:hover
- {
+.button-softSkills1:hover {
     color: #fff;
-    background-color:#7878FF;
- }
+    background-color: #7878FF;
+}
 
-.button-softSkills2{
+.button-softSkills2 {
     background-color: transparent;
-    color:#7878FF;
+    color: #7878FF;
     border: 1px solid #7878FF;
     font-size: 25px;
     font-weight: bold;
@@ -402,15 +397,14 @@ body{
     cursor: pointer;
 }
 
-.button-softSkills2:hover
- {
+.button-softSkills2:hover {
     color: #fff;
-    background-color:#7878FF;
- }
+    background-color: #7878FF;
+}
 
-.button-softSkills3{
+.button-softSkills3 {
     background-color: transparent;
-    color:#7878FF;
+    color: #7878FF;
     border: 1px solid #7878FF;
     font-size: 20px;
     font-weight: bold;
@@ -425,15 +419,14 @@ body{
     cursor: pointer;
 }
 
-.button-softSkills3:hover
- {
+.button-softSkills3:hover {
     color: #fff;
-    background-color:#7878FF;
- }
+    background-color: #7878FF;
+}
 
-.button-softSkills4{
+.button-softSkills4 {
     background-color: transparent;
-    color:#7878FF;
+    color: #7878FF;
     border: 1px solid #7878FF;
     font-size: 20px;
     font-weight: bold;
@@ -448,15 +441,14 @@ body{
     cursor: pointer;
 }
 
-.button-softSkills4:hover
- {
+.button-softSkills4:hover {
     color: #fff;
-    background-color:#7878FF;
- }
+    background-color: #7878FF;
+}
 
-.button-softSkills5{
+.button-softSkills5 {
     background-color: transparent;
-    color:#7878FF;
+    color: #7878FF;
     border: 1px solid #7878FF;
     font-size: 15px;
     font-weight: bold;
@@ -471,29 +463,28 @@ body{
     cursor: pointer;
 }
 
-.button-softSkills5:hover
- {
+.button-softSkills5:hover {
     color: #fff;
-    background-color:#7878FF;
- }
+    background-color: #7878FF;
+}
 
 
- .recomendados h1{
+.recomendados h1 {
     color: #952B95;
     margin-left: 440px;
     font-size: 35px;
- }
+}
 
 
-.recomendados-hardskills img{
+.recomendados-hardskills img {
     width: 250px;
     height: 250px;
     margin-left: 130px;
     cursor: pointer;
 }
 
-.recomendados-hardskills h1{
-    color:#7878FF;
+.recomendados-hardskills h1 {
+    color: #7878FF;
     margin-top: -40px;
     margin-left: 140px;
     font-size: 20px;
@@ -502,11 +493,11 @@ body{
     display: flex;
     flex: row wrap;
     text-align: center;
-    
+
 }
 
-.recomendados-hardskills h2{
-    color:#7878FF;
+.recomendados-hardskills h2 {
+    color: #7878FF;
     margin-top: -105px;
     margin-left: 525px;
     font-size: 20px;
@@ -517,8 +508,8 @@ body{
     text-align: center;
 }
 
-.recomendados-hardskills h3{
-    color:#7878FF;
+.recomendados-hardskills h3 {
+    color: #7878FF;
     margin-top: -105px;
     margin-left: 920px;
     font-size: 20px;
@@ -529,7 +520,7 @@ body{
     text-align: center;
 }
 
-.recomendados-hardskills a{
+.recomendados-hardskills a {
     text-decoration: none;
 }
 
@@ -546,7 +537,7 @@ body{
 }
 
 
-.image6{
+.image6 {
     width: 250px;
     height: 180px;
     margin-bottom: -60px;
@@ -556,7 +547,7 @@ body{
     flex: row wrap;
 }
 
-.image7{
+.image7 {
     width: 250px;
     height: 200px;
     margin-top: -190px;
@@ -565,7 +556,7 @@ body{
     flex: row wrap;
 }
 
-.image8{
+.image8 {
     width: 250px;
     height: 230px;
     margin-top: -215px;
@@ -575,51 +566,51 @@ body{
 }
 
 
-.rectangle{
+.rectangle {
     margin-left: 170px;
     display: flex;
     flex: row wrap;
 }
 
-.rectangle-number{
+.rectangle-number {
     margin-left: 185px;
     margin-top: -65px;
 }
 
-.stars{
+.stars {
     margin-top: -65px;
 }
 
-.rectangle-two{
+.rectangle-two {
     margin-left: 570px;
     margin-top: -65px;
     display: flex;
     flex: row wrap;
 }
 
-.rectangle-number-two{
+.rectangle-number-two {
     margin-left: 585px;
     margin-top: -65px;
 }
 
-.stars-two{
+.stars-two {
     margin-top: -65px;
 }
 
 
-.rectangle-three{
+.rectangle-three {
     margin-left: 970px;
     margin-top: -65px;
     display: flex;
     flex: row wrap;
 }
 
-.rectangle-number-three{
+.rectangle-number-three {
     margin-left: 985px;
     margin-top: -65px;
 }
 
-.stars-three{
+.stars-three {
     margin-top: -65px;
 }
 
@@ -629,8 +620,8 @@ body{
 
 
 
-.recomendados-softskills h1{
-    color:#7878FF;
+.recomendados-softskills h1 {
+    color: #7878FF;
     margin-top: -40px;
     margin-left: 170px;
     text-align: center;
@@ -639,11 +630,11 @@ body{
     cursor: pointer;
     display: flex;
     flex: row wrap;
-    
+
 }
 
-.recomendados-softskills h2{
-    color:#7878FF;
+.recomendados-softskills h2 {
+    color: #7878FF;
     margin-top: -55px;
     margin-left: 538px;
     font-size: 20px;
@@ -654,8 +645,8 @@ body{
     text-align: center;
 }
 
-.recomendados-softskills h3{
-    color:#7878FF;
+.recomendados-softskills h3 {
+    color: #7878FF;
     margin-top: -75px;
     margin-left: 915px;
     font-size: 20px;
@@ -679,51 +670,51 @@ body{
     text-decoration: underline;
 }
 
-.rectangle{
+.rectangle {
     margin-left: 135px;
     display: flex;
     flex: row wrap;
 }
 
-.rectangle-number{
+.rectangle-number {
     margin-left: 150px;
     margin-top: -65px;
 }
 
-.stars{
+.stars {
     margin-top: -65px;
 }
 
-.rectangle-two{
+.rectangle-two {
     margin-left: 525px;
     margin-top: -65px;
     display: flex;
     flex: row wrap;
 }
 
-.rectangle-number-two{
+.rectangle-number-two {
     margin-left: 538px;
     margin-top: -65px;
 }
 
-.stars-two{
+.stars-two {
     margin-top: -65px;
 }
 
 
-.rectangle-three{
+.rectangle-three {
     margin-left: 905px;
     margin-top: -65px;
     display: flex;
     flex: row wrap;
 }
 
-.rectangle-number-three{
+.rectangle-number-three {
     margin-left: 915px;
     margin-top: -65px;
 }
 
-.stars-three{
+.stars-three {
     margin-top: -65px;
 }
 
@@ -744,128 +735,129 @@ body{
 
 
 
-#liderança h1{
+#liderança h1 {
     margin-left: 370px;
     color: #65DAF9;
 }
 
-#liderança h4{
+#liderança h4 {
     margin-left: 365px;
     font-size: 15px;
     color: #65DAF9;
 }
 
-#gestão h1{
+#gestão h1 {
     margin-left: 390px;
     color: #000000;
 }
 
-#gestão h4{
+#gestão h4 {
     margin-left: 385px;
     font-size: 15px;
     color: #000000;
 }
 
-#comuicação{
-   margin-top: 200px;
-   color: #000000;
+#comuicação {
+    margin-top: 200px;
+    color: #000000;
 }
 
 
 
- .d-block{
+.d-block {
     width: 100%;
     height: 521px;
     margin-left: -0px;
- }
+}
 
- .arrows a {
+.arrows a {
     background-color: rgb(0, 0, 0);
     width: 100px;
     height: 422px;
 
- }
+}
 
- .container-fluid {
+.container-fluid {
     padding: 0;
-  }
+}
 
-  
 
-  .carousel-item{
+
+.carousel-item {
     background-color: rgb(255, 255, 255)
-  }
+}
 
-  
 
-  
-  .carousel-item h2{
+
+
+.carousel-item h2 {
     font-size: 15px;
     margin-left: -509px;
     margin-top: -158px;
     color: #fff;
-  }
+}
 
-  .carousel-item h3{
+.carousel-item h3 {
     font-size: 30px;
     margin-left: 615px;
     margin-top: 30px;
     color: #000000;
-  }
+}
 
-  .carousel-item h5{
+.carousel-item h5 {
     font-size: 15px;
     margin-left: 620px;
     color: #000000;
-  }
+}
 
- 
-  
-  #mainSlider .carousel-inner, #mainSlider .carousel-item{
-      height: 70vh;
-  }
-  
-  #mainSlider .carousel-caption{
-      top: 30%;
-  }
 
-  #mainSlider .carousel-caption h1{
+
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+    height: 70vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h1 {
     color: #000000;
     font-size: 50px;
     margin-top: -110px;
     margin-left: 430px;
 }
-  
-  #mainSlider .carousel-caption h2{
-      font-size: 50px;
-      margin-bottom: 30px;
-  }
-  
-  #mainSlider .carousel-caption p{
-     font-size: 22px;
-     font-weight:300;
-     margin-bottom:100px;
-     color: #fff;
-  }
-  
-  #main-btn{
-     background-color: #65DAF9;
-     color: #fff;
-     text-transform: uppercase;
-     width: 100px;
-     height: 60px;
-     padding: 10px 20px;
-     border-radius: 30px;
-  
-  }
-  
 
-.navbar{
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+#main-btn {
+    background-color: #65DAF9;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+}
+
+
+.navbar {
     border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 
-.ofertas-h1{
+.ofertas-h1 {
     color: #952B95;
     margin-left: 550px;
     margin-top: 100px;
@@ -873,7 +865,7 @@ body{
     font-weight: bold;
 }
 
-.div-react{
+.div-react {
     margin-left: 190px;
     border: 3px solid #7878FF;
     padding-left: 60px;
@@ -883,12 +875,12 @@ body{
     padding-bottom: 30px;
 }
 
-.div-react:hover{
+.div-react:hover {
     background-color: #ffffff;
     cursor: pointer;
 }
 
-.div-react img{
+.div-react img {
     width: 200px;
     height: 200px;
     display: flex;
@@ -898,63 +890,63 @@ body{
 
 
 
-.react-img .number-react{
+.react-img .number-react {
     width: 20px;
     height: 20px;
-    margin-left:218px;
+    margin-left: 218px;
     margin-top: -100px;
     display: flex;
     flex: row wrap;
- }
-
-.react-img .stars-react{
-   width: 20px;
-   height: 20px;
-   margin-left:242px;
-   margin-top: -20px;
-   display: flex;
-   flex: row wrap;
 }
 
-.react-img .stars-react-two{
+.react-img .stars-react {
     width: 20px;
     height: 20px;
-    margin-left:266px;
+    margin-left: 242px;
     margin-top: -20px;
     display: flex;
     flex: row wrap;
- }
+}
 
- .react-img .stars-react-three{
+.react-img .stars-react-two {
     width: 20px;
     height: 20px;
-    margin-left:290px;
+    margin-left: 266px;
     margin-top: -20px;
     display: flex;
     flex: row wrap;
- }
+}
 
- .react-img .stars-react-four{
+.react-img .stars-react-three {
     width: 20px;
     height: 20px;
-    margin-left:314px;
+    margin-left: 290px;
     margin-top: -20px;
     display: flex;
     flex: row wrap;
- }
+}
 
- .react-img .stars-react-five{
+.react-img .stars-react-four {
     width: 20px;
     height: 20px;
-    margin-left:337px;
+    margin-left: 314px;
     margin-top: -20px;
     display: flex;
     flex: row wrap;
- }
+}
+
+.react-img .stars-react-five {
+    width: 20px;
+    height: 20px;
+    margin-left: 337px;
+    margin-top: -20px;
+    display: flex;
+    flex: row wrap;
+}
 
 
 
-.div-react h1{
+.div-react h1 {
     color: #7878FF;
     margin-left: 220px;
     margin-top: -170px;
@@ -962,14 +954,14 @@ body{
     font-weight: bold;
 }
 
-.div-react p{
+.div-react p {
     color: #7878FF;
-    margin-left:220px ;
+    margin-left: 220px;
     margin-top: -10px;
     font-size: 15px;
 }
 
-.softskills-img img{
+.softskills-img img {
     width: 200px;
     height: 200px;
     display: flex;
@@ -978,89 +970,89 @@ body{
 
 
 
-.softskills-img .number-react{
+.softskills-img .number-react {
     width: 20px;
     height: 20px;
-    margin-left:215px;
+    margin-left: 215px;
     margin-top: -100px;
     display: flex;
     flex: row wrap;
- }
-
-.softskills-img .stars-react{
-   width: 20px;
-   height: 20px;
-   margin-left:240px;
-   margin-top: -20px;
-   display: flex;
-   flex: row wrap;
 }
 
-.softskills-img .stars-react-two{
+.softskills-img .stars-react {
     width: 20px;
     height: 20px;
-    margin-left:265px;
+    margin-left: 240px;
     margin-top: -20px;
     display: flex;
     flex: row wrap;
- }
+}
 
- .softskills-img .stars-react-three{
+.softskills-img .stars-react-two {
     width: 20px;
     height: 20px;
-    margin-left:290px;
+    margin-left: 265px;
     margin-top: -20px;
     display: flex;
     flex: row wrap;
- }
+}
 
- .softskills-img .stars-react-four{
+.softskills-img .stars-react-three {
     width: 20px;
     height: 20px;
-    margin-left:315px;
+    margin-left: 290px;
     margin-top: -20px;
     display: flex;
     flex: row wrap;
- }
+}
+
+.softskills-img .stars-react-four {
+    width: 20px;
+    height: 20px;
+    margin-left: 315px;
+    margin-top: -20px;
+    display: flex;
+    flex: row wrap;
+}
 
 
 
 
-.div-react h2{
+.div-react h2 {
     color: #7878FF;
     margin-left: 220px;
     font-size: 25px;
     margin-top: -10px;
     display: flex;
     flex: row wrap;
-    
+
 }
 
-.div-react h3{
+.div-react h3 {
     color: #7878FF;
     margin-left: 320px;
     font-size: 15px;
     margin-top: -30px;
-    text-decoration: line-through red ;
+    text-decoration: line-through red;
     display: flex;
     flex: row wrap;
 }
 
-.div-react h4{
+.div-react h4 {
     color: #7878FF;
-    margin-top:15px;
+    margin-top: 15px;
     margin-left: 220px;
     font-size: 15px;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 
-.div-softskills img{
+.div-softskills img {
     width: 180px;
     height: 150px;
 }
 
-.div-softskills{
+.div-softskills {
     margin-left: 190px;
     border: 3px solid #7878FF;
     padding-left: 60px;
@@ -1071,12 +1063,12 @@ body{
 }
 
 
-.div-softskills:hover{
+.div-softskills:hover {
     background-color: #ffffff;
     cursor: pointer;
 }
 
-.div-softskills h1{
+.div-softskills h1 {
     color: #7878FF;
     margin-left: 220px;
     margin-top: -150px;
@@ -1084,14 +1076,14 @@ body{
     font-weight: bold;
 }
 
-.div-softskills p{
+.div-softskills p {
     color: #7878FF;
-    margin-left:220px ;
+    margin-left: 220px;
     margin-top: -10px;
     font-size: 15px;
 }
 
-.div-softskills h2{
+.div-softskills h2 {
     color: #7878FF;
     margin-left: 220px;
     margin-top: -10px;
@@ -1100,147 +1092,148 @@ body{
     flex: row wrap;
 }
 
-.div-softskills h3{
+.div-softskills h3 {
     color: #7878FF;
     margin-left: 320px;
     font-size: 15px;
     margin-top: -30px;
-    text-decoration: line-through red ;
+    text-decoration: line-through red;
     display: flex;
     flex: row wrap;
 }
 
-.div-softskills h4{
+.div-softskills h4 {
     color: #7878FF;
-    margin-top:25px;
+    margin-top: 25px;
     margin-left: 220px;
     font-size: 15px;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 
 
 
-footer{
-    border-top: 1px solid rgb(0, 0, 0);;
+footer {
+    border-top: 1px solid rgb(0, 0, 0);
+    ;
 }
 
 
-.logo{
+.logo {
     width: 200px;
     height: 200px;
 }
 
-.div-footer1{
+.div-footer1 {
     padding-top: 20px;
     display: flex;
     flex: row wrap;
 }
 
-.div-footer2{
+.div-footer2 {
     display: flex;
     flex: row wrap;
     margin-left: 10px;
 }
 
-.div-footer3{
+.div-footer3 {
     margin-left: 45px;
     display: flex;
     flex: row wrap;
 }
 
-.footerh1{
+.footerh1 {
     color: #952B95;
     font-size: 15px;
     margin-left: 180px;
 }
 
-.footerp{
+.footerp {
     color: dodgerblue;
     margin-top: 25px;
     margin-left: -102px;
     cursor: pointer;
 }
 
-.footerp:hover{
+.footerp:hover {
     text-decoration: underline;
 }
 
-.logo-footer{
-  width: 120px;
-  height:120px;
-  margin-top: 50px;
-  margin-left: -108px;
+.logo-footer {
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: -108px;
 }
 
-.footer2h1{
+.footer2h1 {
     color: #952B95;
-    font-size:15px ;
+    font-size: 15px;
     margin-left: 500px;
     margin-top: -170px;
 }
 
 
-.footer2p{
+.footer2p {
     color: dodgerblue;
     margin-top: -150px;
     margin-left: -117px;
     cursor: pointer;
 }
 
-.footer2p:hover{
+.footer2p:hover {
     text-decoration: underline;
 }
 
 
 
-.footer2p2{
+.footer2p2 {
     color: dodgerblue;
     margin-top: -120px;
     margin-left: -57px;
     cursor: pointer;
 }
 
-.footer2p2:hover{
+.footer2p2:hover {
     text-decoration: underline;
 }
 
-.footer2p3{
+.footer2p3 {
     color: dodgerblue;
     margin-top: -90px;
     margin-left: -124px;
     cursor: pointer;
 }
 
-.footer2p3:hover{
+.footer2p3:hover {
     text-decoration: underline;
 }
 
-.footer2p4{
+.footer2p4 {
     color: dodgerblue;
     margin-top: -60px;
     margin-left: -50px;
     cursor: pointer;
 }
 
-.footer2p4:hover{
+.footer2p4:hover {
     text-decoration: underline;
 }
 
-.footer2p5{
+.footer2p5 {
     color: dodgerblue;
     margin-top: -30px;
     margin-left: -158px;
     cursor: pointer;
 }
 
-.footer2p5:hover{
+.footer2p5:hover {
     text-decoration: underline;
 }
 
-.footer3h1{
+.footer3h1 {
     color: #952B95;
-    font-size:15px ;
+    font-size: 15px;
     font-weight: bold;
     margin-left: 810px;
     margin-top: -180px;
@@ -1248,7 +1241,7 @@ footer{
     flex: row wrap;
 }
 
-.icon-message{
+.icon-message {
     width: 50px;
     height: 50px;
     margin-left: 810px;
@@ -1257,7 +1250,7 @@ footer{
     flex: row wrap;
 }
 
-.icon-whatsapp{
+.icon-whatsapp {
     width: 50px;
     height: 50px;
     margin-left: 875px;
@@ -1265,10 +1258,10 @@ footer{
     cursor: pointer;
     display: flex;
     flex: row wrap;
-    
+
 }
 
-.footer3h2{
+.footer3h2 {
     color: #952B95;
     font-size: 15px;
     margin-top: -70px;
@@ -1278,17 +1271,17 @@ footer{
     flex: row wrap;
 }
 
-.icon-instagram{
+.icon-instagram {
     width: 50px;
     height: 50px;
-    margin-left:-115px;
+    margin-left: -115px;
     cursor: pointer;
     display: flex;
     flex: row wrap;
-    
+
 }
 
-.icon-youtube{
+.icon-youtube {
     width: 50px;
     height: 50px;
     margin-left: -50px;
@@ -1296,15 +1289,15 @@ footer{
     cursor: pointer;
     display: flex;
     flex: row wrap;
-    
+
 }
 
-.footer3p{
+.footer3p {
     color: #952B95;
     font-size: 15px;
     margin-left: 80px;
     font-weight: bold;
     display: flex;
     flex: row wrap;
-    
+
 }

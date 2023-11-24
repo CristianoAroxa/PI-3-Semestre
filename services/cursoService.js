@@ -4,10 +4,10 @@ import mongoose from "mongoose"
 const Curso = mongoose.model("Curso", curso)
 
 class cursoService {
-    Create(nome, cargaHoraria, preco) {
+    Create(nome, carga, preco) {
         const newCurso = new Curso({
             nome: nome,
-            cargaHoraria: cargaHoraria,
+            carga: carga,
             preco: preco
         })
         newCurso.save()
@@ -31,10 +31,10 @@ class cursoService {
         })
     }
 
-    Update(id, nome, cargaHoraria, preco) {
-        CursofindByIdAndUpdate(id, {
+    Update(id, nome, carga, preco) {
+        Curso.findByIdAndUpdate(id, {
             nome: nome,
-            cargaHoraria: cargaHoraria,
+            carga: carga,
             preco: preco
         }).then(() => {
             console.log(`Dados do curso com id: ${id} alterados com sucesso.`)

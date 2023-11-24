@@ -1,9 +1,9 @@
 import mongoose from 'mongoose'
 
-const cusro = new mongoose.Schema({
+const curso = new mongoose.Schema({
     nome: String,
-    cargaHoraria: String,
+    carga: String,
     preco: String,
 })
 
-export default cusro
+export default curso
