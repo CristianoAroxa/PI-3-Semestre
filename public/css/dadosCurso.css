@@ -1,0 +1,5 @@
+body {
+    background-image: linear-gradient(rgb(237, 190, 245), rgb(255, 255, 255), #cbb9fc);
+    height: 185vh;
+    font-family: 'Roboto', sans-serif;
+}

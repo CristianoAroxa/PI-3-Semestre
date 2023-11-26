@@ -13,8 +13,8 @@ body {
     font-size: 15px;
     margin-left: 45px;
     margin-top: -10px;
+    font-weight: bold;
 }
-
 
 .navbar-logo {
     width: 80px;
@@ -68,9 +68,6 @@ body {
     height: 60px;
     margin-left: -7px;
 }
-
-
-
 
 .input-navbar {
     width: 250px;
@@ -153,9 +150,6 @@ body {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-
-
-
 
 .button-hardSkills1 {
     background-color: transparent;
@@ -268,8 +262,6 @@ body {
     background-color: #7878FF;
 }
 
-
-
 .softSkills {
     color: #952B95;
     margin-left: 510px;
@@ -355,8 +347,6 @@ body {
     width: 100px;
     height: 100px;
 }
-
-
 
 .button-softSkills1 {
     background-color: transparent;
@@ -468,13 +458,11 @@ body {
     background-color: #7878FF;
 }
 
-
 .recomendados h1 {
     color: #952B95;
     margin-left: 440px;
     font-size: 35px;
 }
-
 
 .recomendados-hardskills img {
     width: 250px;
@@ -536,7 +524,6 @@ body {
     text-decoration: underline;
 }
 
-
 .image6 {
     width: 250px;
     height: 180px;
@@ -564,7 +551,6 @@ body {
     display: flex;
     flex: row wrap;
 }
-
 
 .rectangle {
     margin-left: 170px;
@@ -597,7 +583,6 @@ body {
     margin-top: -65px;
 }
 
-
 .rectangle-three {
     margin-left: 970px;
     margin-top: -65px;
@@ -613,12 +598,6 @@ body {
 .stars-three {
     margin-top: -65px;
 }
-
-
-
-
-
-
 
 .recomendados-softskills h1 {
     color: #7878FF;
@@ -718,23 +697,6 @@ body {
     margin-top: -65px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #liderança h1 {
     margin-left: 370px;
     color: #65DAF9;
@@ -763,7 +725,6 @@ body {
 }
 
 
-
 .d-block {
     width: 100%;
     height: 521px;
@@ -782,12 +743,9 @@ body {
 }
 
 
-
 .carousel-item {
     background-color: rgb(255, 255, 255)
 }
-
-
 
 
 .carousel-item h2 {
@@ -809,8 +767,6 @@ body {
     margin-left: 620px;
     color: #000000;
 }
-
-
 
 #mainSlider .carousel-inner,
 #mainSlider .carousel-item {

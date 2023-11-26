@@ -1,0 +1,42 @@
+[33mcommit 5de568dc940f99815e993a808d14a46d58fb5d76[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: cp.aroxa <cristiano.aroxa.pb@compasso.com.br>
+Date:   Thu Nov 16 12:14:52 2023 -0300
+
+    update
+
+[33mcommit 1e6b683db7ea579315bf159615be8e8326e15e76[m
+Author: cp.aroxa <cristiano.aroxa.pb@compasso.com.br>
+Date:   Mon Nov 13 18:28:50 2023 -0300
+
+    add dadosCurso
+
+[33mcommit a460b7972424e641c78a5d56823894ea6a9a8da6[m
+Merge: 42c5fe6 7ea118c
+Author: cp.aroxa <cristiano.aroxa.pb@compasso.com.br>
+Date:   Mon Nov 13 18:01:57 2023 -0300
+
+    Merge https://github.com/CristianoAroxa/PI-3-Semestre
+
+[33mcommit 42c5fe6c0e51b084fd5598047af4ec962f79a838[m
+Author: cp.aroxa <cristiano.aroxa.pb@compasso.com.br>
+Date:   Mon Nov 13 17:59:56 2023 -0300
+
+    incluida rota loading
+
+[33mcommit 7ea118ce8084293541e0eede04639cd72a38c49a[m
+Author: Cristiano Aroxa <112488905+CristianoAroxa@users.noreply.github.com>
+Date:   Mon Nov 13 17:15:19 2023 -0300
+
+    Update README.md
+
+[33mcommit 523ddbd684bb0bdda18338cba523f4820d6e6525[m
+Author: Cristiano Aroxa <112488905+CristianoAroxa@users.noreply.github.com>
+Date:   Mon Nov 13 17:14:12 2023 -0300
+
+    Update README.md
+
+[33mcommit e114f135e2198dd06e801e955b9b054ec01f48ce[m[33m ([m[1;32mmaster[m[33m)[m
+Author: cp.aroxa <cristiano.aroxa.pb@compasso.com.br>
+Date:   Mon Nov 13 16:56:02 2023 -0300
+
+    liberty cursos

@@ -54,7 +54,7 @@ app.get("/logout", (req, res) => {
     res.redirect("/");
 });
 
-app.get("/curso", Auth, function (req, res) {
+app.get("/curso", function (req, res) {
     res.render("curso");
 })
     ;
@@ -105,7 +105,7 @@ app.post("/authenticate", (req, res) => {
                 res.redirect("/");
             } else {
                 // Informar senha incorreta
-                res.send(`Você digitou a sen;ha incorretamente.`)
+                res.send(`Você digitou a senha incorretamente.`)
             }
         } else {
             // Informa usuário incorreto
@@ -128,12 +128,12 @@ app.get("/perfil", function (req, res) {
 
 app.post("/createClient", (req, res) => {
     clientService.Create(
-        req.body.nome, 
-        req.body.rg, 
-        req.body.email, 
-        req.body.senha, 
+        req.body.nome,
+        req.body.rg,
+        req.body.email,
+        req.body.senha,
         req.body.confSenha
-        );
+    );
     res.redirect("/login");
 });
 
@@ -177,16 +177,6 @@ app.post("/updateCurso/:id", (req, res) => {
     cursoService.Update(id, nome, carga, preco);
     res.redirect("/editarCurso");
 });
-
-/*app.post("/updateCurso/:id",  (req, res) => {
-    cursoService.Update(
-        req.body.id,
-        req.body.nome,
-        req.body.cargaHoraria,
-        req.body.preco
-    );
-    res.redirect("/editarCurso");
-});*/
 
 // Iniciando o servidor na pora 8080
 app.listen(8080, function (erro) {
