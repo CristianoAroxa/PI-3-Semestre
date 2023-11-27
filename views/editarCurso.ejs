@@ -1,77 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/editarCurso.css">
-    <title>Document</title>
+    <title>Cursos</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="card-header">
-                <h1>Cadastrar curso</h1>
-                <hr>
-                <form method="POST" action="createCurso">
-                    <label>Nome do curso:</label>
-                    <input type="text" name="nome" id="nome" placeholder="Insira o nome do curso" class="form-control">
+    <%- include ('partials/navbar.ejs') %>
 
-                    <label>Carga hóraria do curso:</label>
-                    <input type="text" name="carga" id="carga" placeholder="Insira a Carga horaria do curso"
-                        class="form-control">
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <h1>Cadastrar curso</h1>
+                    <hr>
+                    <form method="POST" action="createCurso">
+                        <label>Nome do curso:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Insira o nome do curso"
+                            class="form-control">
 
-                    <label>Preço do curso:</label>
-                    <input type="text" name="preco" id="preco" placeholder="Insira o preço do curso"
-                        class="form-control">
-                    <br>
-                    <button class="btn btn-success">Cadastrar</button>
-                </form>
-                <hr>
+                        <label>Carga hóraria do curso:</label>
+                        <input type="text" name="carga" id="carga" placeholder="Insira a Carga horaria do curso"
+                            class="form-control">
+
+                        <label>Preço do curso:</label>
+                        <input type="text" name="preco" id="preco" placeholder="Insira o preço do curso"
+                            class="form-control">
+                        <br>
+                        <button class="btn btn-success">Cadastrar</button>
+                    </form>
+                    <hr>
+                </div>
             </div>
         </div>
-    </div>
-    <br>
+        <br>
 
-    <div class="container">
-        <div class="card">
-            <div class="card-header">
-                <h1>Cursos</h1>
-            </div>
-            <div class="card-body">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Nome:</th>
-                            <th>Carga horária:</th>
-                            <th>Preço:</th>
-                            <th colspan="2" style="text-align: center;">Ações:</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <% cursos.forEach(curso=> { %>
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <h1>Cursos</h1>
+                </div>
+                <div class="card-body">
+                    <table>
+                        <thead>
                             <tr>
-                                <td>
-                                    <%= curso.nome %>
-                                </td>
-                                <td>
-                                    <%= curso.carga %>
-                                </td>
-                                <td>
-                                    <%= curso.preco %>
-                                </td>
-                                <td><a href="/deleteCurso/<%= curso._id %>"><img src="/imgs/delete.png"
-                                            alt="Apagar"></a></td>
-                                <td><a href="/findCurso/<%= curso._id %>"><img src="/imgs/edit.png" alt="Editar"></a>
-                                </td>
+                                <th>Nome:</th>
+                                <th>Carga horária:</th>
+                                <th>Preço:</th>
+                                <th colspan="2" style="text-align: center;">Ações:</th>
                             </tr>
-                            <% }) %>
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                            <% cursos.forEach(curso=> { %>
+                                <tr>
+                                    <td>
+                                        <%= curso.nome %>
+                                    </td>
+                                    <td>
+                                        <%= curso.carga %>
+                                    </td>
+                                    <td>
+                                        <%= curso.preco %>
+                                    </td>
+                                    <td><a href="/deleteCurso/<%= curso._id %>"><img src="/imgs/delete.png"
+                                                alt="Apagar"></a></td>
+                                    <td><a href="/findCurso/<%= curso._id %>"><img src="/imgs/edit.png"
+                                                alt="Editar"></a>
+                                    </td>
+                                </tr>
+                                <% }) %>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
-    </div>
 
 </body>
 

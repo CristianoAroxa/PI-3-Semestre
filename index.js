@@ -5,6 +5,7 @@ import bcrypt from "bcrypt" // Importando bcrypt (hash de senha)
 import session from "express-session" //Importando gerador de sessões express
 import clientService from './services/clientService.js'
 import cursoService from './services/cursoService.js'
+import userService from './services/userService.js'
 import Auth from "./middleware/Auth.js"
 
 
@@ -48,6 +49,14 @@ app.get("/login", function (req, res) {
     res.render("login");
 });
 
+app.get("/loginAdm", function (req, res) {
+    res.render("loginAdm");
+});
+
+app.get("/cadastroAdm", function (req, res) {
+    res.render("cadastroAdm");
+});
+
 // ROTA DE LOGOUT
 app.get("/logout", (req, res) => {
     req.session.user = undefined
@@ -69,22 +78,12 @@ app.get("/cadastro", function (req, res) {
 // ROTA DE CRIAÇÃO DE USUÁRIO NO BANCO
 app.post("/createUser", (req, res) => {
     // COLETANDO INFORMAÇÕES DO CORPO DA REQUISIÇÃO
-    const email = req.body.email
-    const password = req.body.password
-
-    UserService.GetOne(email).then(user => {
-        if (user == undefined) {
-            // AQUI SERÁ FEITO O CADASTRO
-            const salt = bcrypt.genSaltSync(10);
-            const hash = bcrypt.hashSync(password, salt);
-
-            UserService.Create(email, hash);
-            res.redirect("/login");
-            // CASO JÁ TENHA USUÁRIO CADASTRADO
-        } else {
-            res.send(`Usuário já cadastrado!`);
-        }
-    });
+    userService.Create(
+        req.body.email,
+        req.body.password,
+       
+    );
+    res.redirect("/loginAdm");
 });
 
 // ROTA DE AUTENTICAÇÃO
