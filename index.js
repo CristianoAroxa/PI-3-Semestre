@@ -80,7 +80,7 @@ app.post("/createUser", (req, res) => {
     // COLETANDO INFORMAÇÕES DO CORPO DA REQUISIÇÃO
     userService.Create(
         req.body.email,
-        req.body.password,
+        req.body.password
        
     );
     res.redirect("/loginAdm");
@@ -91,7 +91,7 @@ app.post("/authenticate", (req, res) => {
     const email = req.body.email
     const password = req.body.password
 
-    UserService.GetOne(email).then(user => {
+    userService.GetOne(email).then(user => {
         if (user != undefined) { //Se o usuário existe
             // Validar senha
             const correct = bcrypt.compareSync(password, user.password);
